@@ -373,7 +373,7 @@ DATABASES = {
         'NAME': env.get("DB_NAME"),
         'USER': env.get("DB_USER"),
         'PASSWORD': env.get("DB_PASSWORD"),
-        'PORT': env.get("PORT"),
+        'PORT': env.get("DB_PORT"),
     }
 }
 
