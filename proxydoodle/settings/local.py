@@ -12,9 +12,10 @@ ALLOWED_HOSTS = ['*']
 #==============================================================================
 # LOCAL DATBASE
 #==============================================================================
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(VAR_ROOT, 'proxydoodle'),
-    },
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(VAR_ROOT, 'proxydoodle'),
+#     },
+# }
+print DATABASES

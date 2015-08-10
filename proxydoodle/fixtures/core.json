@@ -1,0 +1,2947 @@
+[
+{
+    "fields": {
+        "model": "revision",
+        "app_label": "reversion"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 1
+},
+{
+    "fields": {
+        "model": "version",
+        "app_label": "reversion"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 2
+},
+{
+    "fields": {
+        "model": "url",
+        "app_label": "robots"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 3
+},
+{
+    "fields": {
+        "model": "rule",
+        "app_label": "robots"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 4
+},
+{
+    "fields": {
+        "model": "socialsharesettings",
+        "app_label": "share_me_share_me"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 5
+},
+{
+    "fields": {
+        "model": "socialsharelink",
+        "app_label": "share_me_share_me"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 6
+},
+{
+    "fields": {
+        "model": "socialsharetrack",
+        "app_label": "share_me_share_me"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 7
+},
+{
+    "fields": {
+        "model": "user",
+        "app_label": "account"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 8
+},
+{
+    "fields": {
+        "model": "address",
+        "app_label": "account"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 9
+},
+{
+    "fields": {
+        "model": "usergroupmember",
+        "app_label": "account"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 10
+},
+{
+    "fields": {
+        "model": "usergroup",
+        "app_label": "account"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 11
+},
+{
+    "fields": {
+        "model": "organization",
+        "app_label": "account"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 12
+},
+{
+    "fields": {
+        "model": "organizationmember",
+        "app_label": "account"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 13
+},
+{
+    "fields": {
+        "model": "socialcontactlink",
+        "app_label": "account"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 14
+},
+{
+    "fields": {
+        "model": "image",
+        "app_label": "media"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 15
+},
+{
+    "fields": {
+        "model": "media",
+        "app_label": "media"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 16
+},
+{
+    "fields": {
+        "model": "mediatag",
+        "app_label": "media"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 17
+},
+{
+    "fields": {
+        "model": "template",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 18
+},
+{
+    "fields": {
+        "model": "cssresource",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 19
+},
+{
+    "fields": {
+        "model": "jsresource",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 20
+},
+{
+    "fields": {
+        "model": "csspackage",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 21
+},
+{
+    "fields": {
+        "model": "jspackage",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 22
+},
+{
+    "fields": {
+        "model": "menuitem",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 23
+},
+{
+    "fields": {
+        "model": "adminapplink",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 24
+},
+{
+    "fields": {
+        "model": "adminappgroup",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 25
+},
+{
+    "fields": {
+        "model": "adminlink",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 26
+},
+{
+    "fields": {
+        "model": "adminsidebar",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 27
+},
+{
+    "fields": {
+        "model": "legacyurl",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 28
+},
+{
+    "fields": {
+        "model": "legacyurlreferer",
+        "app_label": "core"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 29
+},
+{
+    "fields": {
+        "model": "emailtemplate",
+        "app_label": "email"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 30
+},
+{
+    "fields": {
+        "model": "emailcategory",
+        "app_label": "email"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 31
+},
+{
+    "fields": {
+        "model": "emailreceipt",
+        "app_label": "email"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 32
+},
+{
+    "fields": {
+        "model": "usersubscriptionsettings",
+        "app_label": "email"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 33
+},
+{
+    "fields": {
+        "model": "emailcategorysubscriptionsettings",
+        "app_label": "email"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 34
+},
+{
+    "fields": {
+        "model": "formentrystatus",
+        "app_label": "form"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 35
+},
+{
+    "fields": {
+        "model": "formentrytag",
+        "app_label": "form"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 36
+},
+{
+    "fields": {
+        "model": "formfield",
+        "app_label": "form"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 37
+},
+{
+    "fields": {
+        "model": "form",
+        "app_label": "form"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 38
+},
+{
+    "fields": {
+        "model": "fieldentry",
+        "app_label": "form"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 39
+},
+{
+    "fields": {
+        "model": "formentry",
+        "app_label": "form"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 40
+},
+{
+    "fields": {
+        "model": "page",
+        "app_label": "page"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 41
+},
+{
+    "fields": {
+        "model": "pagetag",
+        "app_label": "page"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 42
+},
+{
+    "fields": {
+        "model": "pageslide",
+        "app_label": "page"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 43
+},
+{
+    "fields": {
+        "model": "pagecontentblock",
+        "app_label": "page"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 44
+},
+{
+    "fields": {
+        "model": "permission",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 45
+},
+{
+    "fields": {
+        "model": "group",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 46
+},
+{
+    "fields": {
+        "model": "contenttype",
+        "app_label": "contenttypes"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 47
+},
+{
+    "fields": {
+        "model": "session",
+        "app_label": "sessions"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 48
+},
+{
+    "fields": {
+        "model": "site",
+        "app_label": "sites"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 49
+},
+{
+    "fields": {
+        "model": "logentry",
+        "app_label": "admin"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 50
+},
+{
+    "fields": {
+        "expire_date": "2015-08-24T01:48:28.063Z",
+        "session_data": "ODRmZGJhYTU5NmNmMjkzZDFkMzA5ZmRiMzUwOWM4YTY5MmFjYzI4Zjp7Il9hdXRoX3VzZXJfaGFzaCI6IjFjMDFlMWVjYmJlY2EzMGJlYzk0Nzg1MjUzMDAwYThhYjQzMjdlMmYiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0="
+    },
+    "model": "sessions.session",
+    "pk": "zaqabfk4nhu88j7zuwoapb2v08q5t2ul"
+},
+{
+    "fields": {
+        "domain": "127.0.0.1:8000",
+        "name": "ProxyDoodle"
+    },
+    "model": "sites.site",
+    "pk": 1
+},
+{
+    "fields": {
+        "domain": "proxydoodle.herokuapp.com",
+        "name": "ProxyDoodle"
+    },
+    "model": "sites.site",
+    "pk": 2
+},
+{
+    "fields": {
+        "domain": "proxydoodle.com",
+        "name": "ProxyDoodle"
+    },
+    "model": "sites.site",
+    "pk": 3
+},
+{
+    "fields": {
+        "codename": "add_revision",
+        "name": "Can add revision",
+        "content_type": 1
+    },
+    "model": "auth.permission",
+    "pk": 1
+},
+{
+    "fields": {
+        "codename": "change_revision",
+        "name": "Can change revision",
+        "content_type": 1
+    },
+    "model": "auth.permission",
+    "pk": 2
+},
+{
+    "fields": {
+        "codename": "delete_revision",
+        "name": "Can delete revision",
+        "content_type": 1
+    },
+    "model": "auth.permission",
+    "pk": 3
+},
+{
+    "fields": {
+        "codename": "add_version",
+        "name": "Can add version",
+        "content_type": 2
+    },
+    "model": "auth.permission",
+    "pk": 4
+},
+{
+    "fields": {
+        "codename": "change_version",
+        "name": "Can change version",
+        "content_type": 2
+    },
+    "model": "auth.permission",
+    "pk": 5
+},
+{
+    "fields": {
+        "codename": "delete_version",
+        "name": "Can delete version",
+        "content_type": 2
+    },
+    "model": "auth.permission",
+    "pk": 6
+},
+{
+    "fields": {
+        "codename": "add_url",
+        "name": "Can add url",
+        "content_type": 3
+    },
+    "model": "auth.permission",
+    "pk": 7
+},
+{
+    "fields": {
+        "codename": "change_url",
+        "name": "Can change url",
+        "content_type": 3
+    },
+    "model": "auth.permission",
+    "pk": 8
+},
+{
+    "fields": {
+        "codename": "delete_url",
+        "name": "Can delete url",
+        "content_type": 3
+    },
+    "model": "auth.permission",
+    "pk": 9
+},
+{
+    "fields": {
+        "codename": "add_rule",
+        "name": "Can add rule",
+        "content_type": 4
+    },
+    "model": "auth.permission",
+    "pk": 10
+},
+{
+    "fields": {
+        "codename": "change_rule",
+        "name": "Can change rule",
+        "content_type": 4
+    },
+    "model": "auth.permission",
+    "pk": 11
+},
+{
+    "fields": {
+        "codename": "delete_rule",
+        "name": "Can delete rule",
+        "content_type": 4
+    },
+    "model": "auth.permission",
+    "pk": 12
+},
+{
+    "fields": {
+        "codename": "add_socialsharesettings",
+        "name": "Can add social share settings",
+        "content_type": 5
+    },
+    "model": "auth.permission",
+    "pk": 13
+},
+{
+    "fields": {
+        "codename": "change_socialsharesettings",
+        "name": "Can change social share settings",
+        "content_type": 5
+    },
+    "model": "auth.permission",
+    "pk": 14
+},
+{
+    "fields": {
+        "codename": "delete_socialsharesettings",
+        "name": "Can delete social share settings",
+        "content_type": 5
+    },
+    "model": "auth.permission",
+    "pk": 15
+},
+{
+    "fields": {
+        "codename": "add_socialsharelink",
+        "name": "Can add social share link",
+        "content_type": 6
+    },
+    "model": "auth.permission",
+    "pk": 16
+},
+{
+    "fields": {
+        "codename": "change_socialsharelink",
+        "name": "Can change social share link",
+        "content_type": 6
+    },
+    "model": "auth.permission",
+    "pk": 17
+},
+{
+    "fields": {
+        "codename": "delete_socialsharelink",
+        "name": "Can delete social share link",
+        "content_type": 6
+    },
+    "model": "auth.permission",
+    "pk": 18
+},
+{
+    "fields": {
+        "codename": "add_socialsharetrack",
+        "name": "Can add social share track",
+        "content_type": 7
+    },
+    "model": "auth.permission",
+    "pk": 19
+},
+{
+    "fields": {
+        "codename": "change_socialsharetrack",
+        "name": "Can change social share track",
+        "content_type": 7
+    },
+    "model": "auth.permission",
+    "pk": 20
+},
+{
+    "fields": {
+        "codename": "delete_socialsharetrack",
+        "name": "Can delete social share track",
+        "content_type": 7
+    },
+    "model": "auth.permission",
+    "pk": 21
+},
+{
+    "fields": {
+        "codename": "add_user",
+        "name": "Can add user",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 22
+},
+{
+    "fields": {
+        "codename": "change_user",
+        "name": "Can change user",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 23
+},
+{
+    "fields": {
+        "codename": "delete_user",
+        "name": "Can delete user",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 24
+},
+{
+    "fields": {
+        "codename": "add_address",
+        "name": "Can add address",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 25
+},
+{
+    "fields": {
+        "codename": "change_address",
+        "name": "Can change address",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 26
+},
+{
+    "fields": {
+        "codename": "delete_address",
+        "name": "Can delete address",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 27
+},
+{
+    "fields": {
+        "codename": "add_usergroupmember",
+        "name": "Can add user group member",
+        "content_type": 10
+    },
+    "model": "auth.permission",
+    "pk": 28
+},
+{
+    "fields": {
+        "codename": "change_usergroupmember",
+        "name": "Can change user group member",
+        "content_type": 10
+    },
+    "model": "auth.permission",
+    "pk": 29
+},
+{
+    "fields": {
+        "codename": "delete_usergroupmember",
+        "name": "Can delete user group member",
+        "content_type": 10
+    },
+    "model": "auth.permission",
+    "pk": 30
+},
+{
+    "fields": {
+        "codename": "add_usergroup",
+        "name": "Can add user group",
+        "content_type": 11
+    },
+    "model": "auth.permission",
+    "pk": 31
+},
+{
+    "fields": {
+        "codename": "change_usergroup",
+        "name": "Can change user group",
+        "content_type": 11
+    },
+    "model": "auth.permission",
+    "pk": 32
+},
+{
+    "fields": {
+        "codename": "delete_usergroup",
+        "name": "Can delete user group",
+        "content_type": 11
+    },
+    "model": "auth.permission",
+    "pk": 33
+},
+{
+    "fields": {
+        "codename": "add_organization",
+        "name": "Can add organization",
+        "content_type": 12
+    },
+    "model": "auth.permission",
+    "pk": 34
+},
+{
+    "fields": {
+        "codename": "change_organization",
+        "name": "Can change organization",
+        "content_type": 12
+    },
+    "model": "auth.permission",
+    "pk": 35
+},
+{
+    "fields": {
+        "codename": "delete_organization",
+        "name": "Can delete organization",
+        "content_type": 12
+    },
+    "model": "auth.permission",
+    "pk": 36
+},
+{
+    "fields": {
+        "codename": "add_organizationmember",
+        "name": "Can add organization member",
+        "content_type": 13
+    },
+    "model": "auth.permission",
+    "pk": 37
+},
+{
+    "fields": {
+        "codename": "change_organizationmember",
+        "name": "Can change organization member",
+        "content_type": 13
+    },
+    "model": "auth.permission",
+    "pk": 38
+},
+{
+    "fields": {
+        "codename": "delete_organizationmember",
+        "name": "Can delete organization member",
+        "content_type": 13
+    },
+    "model": "auth.permission",
+    "pk": 39
+},
+{
+    "fields": {
+        "codename": "add_socialcontactlink",
+        "name": "Can add social contact link",
+        "content_type": 14
+    },
+    "model": "auth.permission",
+    "pk": 40
+},
+{
+    "fields": {
+        "codename": "change_socialcontactlink",
+        "name": "Can change social contact link",
+        "content_type": 14
+    },
+    "model": "auth.permission",
+    "pk": 41
+},
+{
+    "fields": {
+        "codename": "delete_socialcontactlink",
+        "name": "Can delete social contact link",
+        "content_type": 14
+    },
+    "model": "auth.permission",
+    "pk": 42
+},
+{
+    "fields": {
+        "codename": "add_image",
+        "name": "Can add image",
+        "content_type": 15
+    },
+    "model": "auth.permission",
+    "pk": 43
+},
+{
+    "fields": {
+        "codename": "change_image",
+        "name": "Can change image",
+        "content_type": 15
+    },
+    "model": "auth.permission",
+    "pk": 44
+},
+{
+    "fields": {
+        "codename": "delete_image",
+        "name": "Can delete image",
+        "content_type": 15
+    },
+    "model": "auth.permission",
+    "pk": 45
+},
+{
+    "fields": {
+        "codename": "add_media",
+        "name": "Can add media",
+        "content_type": 16
+    },
+    "model": "auth.permission",
+    "pk": 46
+},
+{
+    "fields": {
+        "codename": "change_media",
+        "name": "Can change media",
+        "content_type": 16
+    },
+    "model": "auth.permission",
+    "pk": 47
+},
+{
+    "fields": {
+        "codename": "delete_media",
+        "name": "Can delete media",
+        "content_type": 16
+    },
+    "model": "auth.permission",
+    "pk": 48
+},
+{
+    "fields": {
+        "codename": "add_mediatag",
+        "name": "Can add media tag",
+        "content_type": 17
+    },
+    "model": "auth.permission",
+    "pk": 49
+},
+{
+    "fields": {
+        "codename": "change_mediatag",
+        "name": "Can change media tag",
+        "content_type": 17
+    },
+    "model": "auth.permission",
+    "pk": 50
+},
+{
+    "fields": {
+        "codename": "delete_mediatag",
+        "name": "Can delete media tag",
+        "content_type": 17
+    },
+    "model": "auth.permission",
+    "pk": 51
+},
+{
+    "fields": {
+        "codename": "add_template",
+        "name": "Can add template",
+        "content_type": 18
+    },
+    "model": "auth.permission",
+    "pk": 52
+},
+{
+    "fields": {
+        "codename": "change_template",
+        "name": "Can change template",
+        "content_type": 18
+    },
+    "model": "auth.permission",
+    "pk": 53
+},
+{
+    "fields": {
+        "codename": "delete_template",
+        "name": "Can delete template",
+        "content_type": 18
+    },
+    "model": "auth.permission",
+    "pk": 54
+},
+{
+    "fields": {
+        "codename": "add_cssresource",
+        "name": "Can add css resource",
+        "content_type": 19
+    },
+    "model": "auth.permission",
+    "pk": 55
+},
+{
+    "fields": {
+        "codename": "change_cssresource",
+        "name": "Can change css resource",
+        "content_type": 19
+    },
+    "model": "auth.permission",
+    "pk": 56
+},
+{
+    "fields": {
+        "codename": "delete_cssresource",
+        "name": "Can delete css resource",
+        "content_type": 19
+    },
+    "model": "auth.permission",
+    "pk": 57
+},
+{
+    "fields": {
+        "codename": "add_jsresource",
+        "name": "Can add js resource",
+        "content_type": 20
+    },
+    "model": "auth.permission",
+    "pk": 58
+},
+{
+    "fields": {
+        "codename": "change_jsresource",
+        "name": "Can change js resource",
+        "content_type": 20
+    },
+    "model": "auth.permission",
+    "pk": 59
+},
+{
+    "fields": {
+        "codename": "delete_jsresource",
+        "name": "Can delete js resource",
+        "content_type": 20
+    },
+    "model": "auth.permission",
+    "pk": 60
+},
+{
+    "fields": {
+        "codename": "add_csspackage",
+        "name": "Can add css package",
+        "content_type": 21
+    },
+    "model": "auth.permission",
+    "pk": 61
+},
+{
+    "fields": {
+        "codename": "change_csspackage",
+        "name": "Can change css package",
+        "content_type": 21
+    },
+    "model": "auth.permission",
+    "pk": 62
+},
+{
+    "fields": {
+        "codename": "delete_csspackage",
+        "name": "Can delete css package",
+        "content_type": 21
+    },
+    "model": "auth.permission",
+    "pk": 63
+},
+{
+    "fields": {
+        "codename": "add_jspackage",
+        "name": "Can add js package",
+        "content_type": 22
+    },
+    "model": "auth.permission",
+    "pk": 64
+},
+{
+    "fields": {
+        "codename": "change_jspackage",
+        "name": "Can change js package",
+        "content_type": 22
+    },
+    "model": "auth.permission",
+    "pk": 65
+},
+{
+    "fields": {
+        "codename": "delete_jspackage",
+        "name": "Can delete js package",
+        "content_type": 22
+    },
+    "model": "auth.permission",
+    "pk": 66
+},
+{
+    "fields": {
+        "codename": "add_menuitem",
+        "name": "Can add menu item",
+        "content_type": 23
+    },
+    "model": "auth.permission",
+    "pk": 67
+},
+{
+    "fields": {
+        "codename": "change_menuitem",
+        "name": "Can change menu item",
+        "content_type": 23
+    },
+    "model": "auth.permission",
+    "pk": 68
+},
+{
+    "fields": {
+        "codename": "delete_menuitem",
+        "name": "Can delete menu item",
+        "content_type": 23
+    },
+    "model": "auth.permission",
+    "pk": 69
+},
+{
+    "fields": {
+        "codename": "add_adminapplink",
+        "name": "Can add admin app link",
+        "content_type": 24
+    },
+    "model": "auth.permission",
+    "pk": 70
+},
+{
+    "fields": {
+        "codename": "change_adminapplink",
+        "name": "Can change admin app link",
+        "content_type": 24
+    },
+    "model": "auth.permission",
+    "pk": 71
+},
+{
+    "fields": {
+        "codename": "delete_adminapplink",
+        "name": "Can delete admin app link",
+        "content_type": 24
+    },
+    "model": "auth.permission",
+    "pk": 72
+},
+{
+    "fields": {
+        "codename": "add_adminappgroup",
+        "name": "Can add admin app group",
+        "content_type": 25
+    },
+    "model": "auth.permission",
+    "pk": 73
+},
+{
+    "fields": {
+        "codename": "change_adminappgroup",
+        "name": "Can change admin app group",
+        "content_type": 25
+    },
+    "model": "auth.permission",
+    "pk": 74
+},
+{
+    "fields": {
+        "codename": "delete_adminappgroup",
+        "name": "Can delete admin app group",
+        "content_type": 25
+    },
+    "model": "auth.permission",
+    "pk": 75
+},
+{
+    "fields": {
+        "codename": "add_adminlink",
+        "name": "Can add admin link",
+        "content_type": 26
+    },
+    "model": "auth.permission",
+    "pk": 76
+},
+{
+    "fields": {
+        "codename": "change_adminlink",
+        "name": "Can change admin link",
+        "content_type": 26
+    },
+    "model": "auth.permission",
+    "pk": 77
+},
+{
+    "fields": {
+        "codename": "delete_adminlink",
+        "name": "Can delete admin link",
+        "content_type": 26
+    },
+    "model": "auth.permission",
+    "pk": 78
+},
+{
+    "fields": {
+        "codename": "add_adminsidebar",
+        "name": "Can add admin sidebar",
+        "content_type": 27
+    },
+    "model": "auth.permission",
+    "pk": 79
+},
+{
+    "fields": {
+        "codename": "change_adminsidebar",
+        "name": "Can change admin sidebar",
+        "content_type": 27
+    },
+    "model": "auth.permission",
+    "pk": 80
+},
+{
+    "fields": {
+        "codename": "delete_adminsidebar",
+        "name": "Can delete admin sidebar",
+        "content_type": 27
+    },
+    "model": "auth.permission",
+    "pk": 81
+},
+{
+    "fields": {
+        "codename": "add_legacyurl",
+        "name": "Can add legacy url",
+        "content_type": 28
+    },
+    "model": "auth.permission",
+    "pk": 82
+},
+{
+    "fields": {
+        "codename": "change_legacyurl",
+        "name": "Can change legacy url",
+        "content_type": 28
+    },
+    "model": "auth.permission",
+    "pk": 83
+},
+{
+    "fields": {
+        "codename": "delete_legacyurl",
+        "name": "Can delete legacy url",
+        "content_type": 28
+    },
+    "model": "auth.permission",
+    "pk": 84
+},
+{
+    "fields": {
+        "codename": "add_legacyurlreferer",
+        "name": "Can add legacy url referer",
+        "content_type": 29
+    },
+    "model": "auth.permission",
+    "pk": 85
+},
+{
+    "fields": {
+        "codename": "change_legacyurlreferer",
+        "name": "Can change legacy url referer",
+        "content_type": 29
+    },
+    "model": "auth.permission",
+    "pk": 86
+},
+{
+    "fields": {
+        "codename": "delete_legacyurlreferer",
+        "name": "Can delete legacy url referer",
+        "content_type": 29
+    },
+    "model": "auth.permission",
+    "pk": 87
+},
+{
+    "fields": {
+        "codename": "add_emailtemplate",
+        "name": "Can add email template",
+        "content_type": 30
+    },
+    "model": "auth.permission",
+    "pk": 88
+},
+{
+    "fields": {
+        "codename": "change_emailtemplate",
+        "name": "Can change email template",
+        "content_type": 30
+    },
+    "model": "auth.permission",
+    "pk": 89
+},
+{
+    "fields": {
+        "codename": "delete_emailtemplate",
+        "name": "Can delete email template",
+        "content_type": 30
+    },
+    "model": "auth.permission",
+    "pk": 90
+},
+{
+    "fields": {
+        "codename": "add_emailcategory",
+        "name": "Can add email category",
+        "content_type": 31
+    },
+    "model": "auth.permission",
+    "pk": 91
+},
+{
+    "fields": {
+        "codename": "change_emailcategory",
+        "name": "Can change email category",
+        "content_type": 31
+    },
+    "model": "auth.permission",
+    "pk": 92
+},
+{
+    "fields": {
+        "codename": "delete_emailcategory",
+        "name": "Can delete email category",
+        "content_type": 31
+    },
+    "model": "auth.permission",
+    "pk": 93
+},
+{
+    "fields": {
+        "codename": "add_emailreceipt",
+        "name": "Can add email receipt",
+        "content_type": 32
+    },
+    "model": "auth.permission",
+    "pk": 94
+},
+{
+    "fields": {
+        "codename": "change_emailreceipt",
+        "name": "Can change email receipt",
+        "content_type": 32
+    },
+    "model": "auth.permission",
+    "pk": 95
+},
+{
+    "fields": {
+        "codename": "delete_emailreceipt",
+        "name": "Can delete email receipt",
+        "content_type": 32
+    },
+    "model": "auth.permission",
+    "pk": 96
+},
+{
+    "fields": {
+        "codename": "add_usersubscriptionsettings",
+        "name": "Can add user subscription settings",
+        "content_type": 33
+    },
+    "model": "auth.permission",
+    "pk": 97
+},
+{
+    "fields": {
+        "codename": "change_usersubscriptionsettings",
+        "name": "Can change user subscription settings",
+        "content_type": 33
+    },
+    "model": "auth.permission",
+    "pk": 98
+},
+{
+    "fields": {
+        "codename": "delete_usersubscriptionsettings",
+        "name": "Can delete user subscription settings",
+        "content_type": 33
+    },
+    "model": "auth.permission",
+    "pk": 99
+},
+{
+    "fields": {
+        "codename": "add_emailcategorysubscriptionsettings",
+        "name": "Can add email category subscription settings",
+        "content_type": 34
+    },
+    "model": "auth.permission",
+    "pk": 100
+},
+{
+    "fields": {
+        "codename": "change_emailcategorysubscriptionsettings",
+        "name": "Can change email category subscription settings",
+        "content_type": 34
+    },
+    "model": "auth.permission",
+    "pk": 101
+},
+{
+    "fields": {
+        "codename": "delete_emailcategorysubscriptionsettings",
+        "name": "Can delete email category subscription settings",
+        "content_type": 34
+    },
+    "model": "auth.permission",
+    "pk": 102
+},
+{
+    "fields": {
+        "codename": "add_formentrystatus",
+        "name": "Can add form entry status",
+        "content_type": 35
+    },
+    "model": "auth.permission",
+    "pk": 103
+},
+{
+    "fields": {
+        "codename": "change_formentrystatus",
+        "name": "Can change form entry status",
+        "content_type": 35
+    },
+    "model": "auth.permission",
+    "pk": 104
+},
+{
+    "fields": {
+        "codename": "delete_formentrystatus",
+        "name": "Can delete form entry status",
+        "content_type": 35
+    },
+    "model": "auth.permission",
+    "pk": 105
+},
+{
+    "fields": {
+        "codename": "add_formentrytag",
+        "name": "Can add form entry tag",
+        "content_type": 36
+    },
+    "model": "auth.permission",
+    "pk": 106
+},
+{
+    "fields": {
+        "codename": "change_formentrytag",
+        "name": "Can change form entry tag",
+        "content_type": 36
+    },
+    "model": "auth.permission",
+    "pk": 107
+},
+{
+    "fields": {
+        "codename": "delete_formentrytag",
+        "name": "Can delete form entry tag",
+        "content_type": 36
+    },
+    "model": "auth.permission",
+    "pk": 108
+},
+{
+    "fields": {
+        "codename": "add_formfield",
+        "name": "Can add form field",
+        "content_type": 37
+    },
+    "model": "auth.permission",
+    "pk": 109
+},
+{
+    "fields": {
+        "codename": "change_formfield",
+        "name": "Can change form field",
+        "content_type": 37
+    },
+    "model": "auth.permission",
+    "pk": 110
+},
+{
+    "fields": {
+        "codename": "delete_formfield",
+        "name": "Can delete form field",
+        "content_type": 37
+    },
+    "model": "auth.permission",
+    "pk": 111
+},
+{
+    "fields": {
+        "codename": "add_form",
+        "name": "Can add form",
+        "content_type": 38
+    },
+    "model": "auth.permission",
+    "pk": 112
+},
+{
+    "fields": {
+        "codename": "change_form",
+        "name": "Can change form",
+        "content_type": 38
+    },
+    "model": "auth.permission",
+    "pk": 113
+},
+{
+    "fields": {
+        "codename": "delete_form",
+        "name": "Can delete form",
+        "content_type": 38
+    },
+    "model": "auth.permission",
+    "pk": 114
+},
+{
+    "fields": {
+        "codename": "add_fieldentry",
+        "name": "Can add field entry",
+        "content_type": 39
+    },
+    "model": "auth.permission",
+    "pk": 115
+},
+{
+    "fields": {
+        "codename": "change_fieldentry",
+        "name": "Can change field entry",
+        "content_type": 39
+    },
+    "model": "auth.permission",
+    "pk": 116
+},
+{
+    "fields": {
+        "codename": "delete_fieldentry",
+        "name": "Can delete field entry",
+        "content_type": 39
+    },
+    "model": "auth.permission",
+    "pk": 117
+},
+{
+    "fields": {
+        "codename": "add_formentry",
+        "name": "Can add form entry",
+        "content_type": 40
+    },
+    "model": "auth.permission",
+    "pk": 118
+},
+{
+    "fields": {
+        "codename": "change_formentry",
+        "name": "Can change form entry",
+        "content_type": 40
+    },
+    "model": "auth.permission",
+    "pk": 119
+},
+{
+    "fields": {
+        "codename": "delete_formentry",
+        "name": "Can delete form entry",
+        "content_type": 40
+    },
+    "model": "auth.permission",
+    "pk": 120
+},
+{
+    "fields": {
+        "codename": "add_page",
+        "name": "Can add page",
+        "content_type": 41
+    },
+    "model": "auth.permission",
+    "pk": 121
+},
+{
+    "fields": {
+        "codename": "change_page",
+        "name": "Can change page",
+        "content_type": 41
+    },
+    "model": "auth.permission",
+    "pk": 122
+},
+{
+    "fields": {
+        "codename": "delete_page",
+        "name": "Can delete page",
+        "content_type": 41
+    },
+    "model": "auth.permission",
+    "pk": 123
+},
+{
+    "fields": {
+        "codename": "add_pagetag",
+        "name": "Can add page tag",
+        "content_type": 42
+    },
+    "model": "auth.permission",
+    "pk": 124
+},
+{
+    "fields": {
+        "codename": "change_pagetag",
+        "name": "Can change page tag",
+        "content_type": 42
+    },
+    "model": "auth.permission",
+    "pk": 125
+},
+{
+    "fields": {
+        "codename": "delete_pagetag",
+        "name": "Can delete page tag",
+        "content_type": 42
+    },
+    "model": "auth.permission",
+    "pk": 126
+},
+{
+    "fields": {
+        "codename": "add_pageslide",
+        "name": "Can add page slide",
+        "content_type": 43
+    },
+    "model": "auth.permission",
+    "pk": 127
+},
+{
+    "fields": {
+        "codename": "change_pageslide",
+        "name": "Can change page slide",
+        "content_type": 43
+    },
+    "model": "auth.permission",
+    "pk": 128
+},
+{
+    "fields": {
+        "codename": "delete_pageslide",
+        "name": "Can delete page slide",
+        "content_type": 43
+    },
+    "model": "auth.permission",
+    "pk": 129
+},
+{
+    "fields": {
+        "codename": "add_pagecontentblock",
+        "name": "Can add Page Block",
+        "content_type": 44
+    },
+    "model": "auth.permission",
+    "pk": 130
+},
+{
+    "fields": {
+        "codename": "change_pagecontentblock",
+        "name": "Can change Page Block",
+        "content_type": 44
+    },
+    "model": "auth.permission",
+    "pk": 131
+},
+{
+    "fields": {
+        "codename": "delete_pagecontentblock",
+        "name": "Can delete Page Block",
+        "content_type": 44
+    },
+    "model": "auth.permission",
+    "pk": 132
+},
+{
+    "fields": {
+        "codename": "add_permission",
+        "name": "Can add permission",
+        "content_type": 45
+    },
+    "model": "auth.permission",
+    "pk": 133
+},
+{
+    "fields": {
+        "codename": "change_permission",
+        "name": "Can change permission",
+        "content_type": 45
+    },
+    "model": "auth.permission",
+    "pk": 134
+},
+{
+    "fields": {
+        "codename": "delete_permission",
+        "name": "Can delete permission",
+        "content_type": 45
+    },
+    "model": "auth.permission",
+    "pk": 135
+},
+{
+    "fields": {
+        "codename": "add_group",
+        "name": "Can add group",
+        "content_type": 46
+    },
+    "model": "auth.permission",
+    "pk": 136
+},
+{
+    "fields": {
+        "codename": "change_group",
+        "name": "Can change group",
+        "content_type": 46
+    },
+    "model": "auth.permission",
+    "pk": 137
+},
+{
+    "fields": {
+        "codename": "delete_group",
+        "name": "Can delete group",
+        "content_type": 46
+    },
+    "model": "auth.permission",
+    "pk": 138
+},
+{
+    "fields": {
+        "codename": "add_contenttype",
+        "name": "Can add content type",
+        "content_type": 47
+    },
+    "model": "auth.permission",
+    "pk": 139
+},
+{
+    "fields": {
+        "codename": "change_contenttype",
+        "name": "Can change content type",
+        "content_type": 47
+    },
+    "model": "auth.permission",
+    "pk": 140
+},
+{
+    "fields": {
+        "codename": "delete_contenttype",
+        "name": "Can delete content type",
+        "content_type": 47
+    },
+    "model": "auth.permission",
+    "pk": 141
+},
+{
+    "fields": {
+        "codename": "add_session",
+        "name": "Can add session",
+        "content_type": 48
+    },
+    "model": "auth.permission",
+    "pk": 142
+},
+{
+    "fields": {
+        "codename": "change_session",
+        "name": "Can change session",
+        "content_type": 48
+    },
+    "model": "auth.permission",
+    "pk": 143
+},
+{
+    "fields": {
+        "codename": "delete_session",
+        "name": "Can delete session",
+        "content_type": 48
+    },
+    "model": "auth.permission",
+    "pk": 144
+},
+{
+    "fields": {
+        "codename": "add_site",
+        "name": "Can add site",
+        "content_type": 49
+    },
+    "model": "auth.permission",
+    "pk": 145
+},
+{
+    "fields": {
+        "codename": "change_site",
+        "name": "Can change site",
+        "content_type": 49
+    },
+    "model": "auth.permission",
+    "pk": 146
+},
+{
+    "fields": {
+        "codename": "delete_site",
+        "name": "Can delete site",
+        "content_type": 49
+    },
+    "model": "auth.permission",
+    "pk": 147
+},
+{
+    "fields": {
+        "codename": "add_logentry",
+        "name": "Can add log entry",
+        "content_type": 50
+    },
+    "model": "auth.permission",
+    "pk": 148
+},
+{
+    "fields": {
+        "codename": "change_logentry",
+        "name": "Can change log entry",
+        "content_type": 50
+    },
+    "model": "auth.permission",
+    "pk": 149
+},
+{
+    "fields": {
+        "codename": "delete_logentry",
+        "name": "Can delete log entry",
+        "content_type": 50
+    },
+    "model": "auth.permission",
+    "pk": 150
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "content_type": 18,
+        "object_id_int": 1,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T01:53:10.369Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Homepage\", \"custom_template\": \"Homepage test\", \"created_by\": 1, \"version\": 1, \"created_date\": \"2015-08-10T01:53:10.369Z\", \"slug\": \"homepage\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 1}]",
+        "revision": 1
+    },
+    "model": "reversion.version",
+    "pk": 1
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "content_type": 41,
+        "object_id_int": 1,
+        "serialized_data": "[{\"fields\": {\"noindex\": false, \"publish_on_date\": null, \"permanent_redirect\": \"\", \"hierarchy\": \"/0000/homepage/\", \"image\": null, \"path_generated\": \"/homepage/\", \"is_searchable\": true, \"google_author_id\": \"\", \"in_sitemap\": true, \"facebook_author_id\": \"\", \"path\": \"/homepage/\", \"social_share_type\": \"article\", \"modified_date\": \"2015-08-10T01:53:18.596Z\", \"modified_by\": null, \"admin_note\": \"\", \"title\": \"Homepage\", \"twitter_author_id\": \"\", \"created_by\": null, \"content\": \"<p>Content test</p>\\r\\n\", \"version\": 1, \"tiny_url\": \"\", \"path_override\": \"\", \"template\": 1, \"publication_status\": 100, \"parent\": null, \"tags\": [], \"page_meta_description\": \"\", \"expire_on_date\": null, \"social_share_image\": null, \"sitemap_changefreq\": \"monthly\", \"published_by\": null, \"publication_date\": null, \"slug\": \"homepage\", \"uuid\": \"page.Page.928cb940-3f02-11e5-abeb-80e6501e3cea\", \"temporary_redirect\": \"\", \"page_meta_keywords\": \"\", \"sitemap_priority\": \"0.5\", \"nofollow\": false, \"synopsis\": \"\", \"shareable\": false, \"created_date\": \"2015-08-10T01:53:18.596Z\", \"order\": 0}, \"model\": \"page.page\", \"pk\": 1}]",
+        "revision": 2
+    },
+    "model": "reversion.version",
+    "pk": 2
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "content_type": 41,
+        "object_id_int": 1,
+        "serialized_data": "[{\"fields\": {\"noindex\": false, \"publish_on_date\": null, \"permanent_redirect\": \"\", \"hierarchy\": \"/0000/homepage/\", \"image\": null, \"path_generated\": \"/homepage/\", \"is_searchable\": true, \"google_author_id\": \"\", \"in_sitemap\": true, \"facebook_author_id\": \"\", \"path\": \"/\", \"social_share_type\": \"article\", \"modified_date\": \"2015-08-10T01:58:39.111Z\", \"modified_by\": null, \"admin_note\": \"\", \"title\": \"Homepage\", \"twitter_author_id\": \"\", \"created_by\": null, \"content\": \"<p>Content test</p>\\r\\n\", \"version\": 2, \"tiny_url\": \"\", \"path_override\": \"/\", \"template\": 1, \"publication_status\": 100, \"parent\": null, \"tags\": [], \"page_meta_description\": \"\", \"expire_on_date\": null, \"social_share_image\": null, \"sitemap_changefreq\": \"monthly\", \"published_by\": null, \"publication_date\": null, \"slug\": \"homepage\", \"uuid\": \"page.Page.928cb940-3f02-11e5-abeb-80e6501e3cea\", \"temporary_redirect\": \"\", \"page_meta_keywords\": \"\", \"sitemap_priority\": \"0.5\", \"nofollow\": false, \"synopsis\": \"\", \"shareable\": false, \"created_date\": \"2015-08-10T01:53:18.596Z\", \"order\": 0}, \"model\": \"page.page\", \"pk\": 1}]",
+        "revision": 3
+    },
+    "model": "reversion.version",
+    "pk": 3
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "content_type": 18,
+        "object_id_int": 1,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T01:59:14.954Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Homepage\", \"custom_template\": \"Homepage test {{object.title}}\", \"created_by\": 1, \"version\": 2, \"created_date\": \"2015-08-10T01:53:10.369Z\", \"slug\": \"homepage\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 1}]",
+        "revision": 4
+    },
+    "model": "reversion.version",
+    "pk": 4
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "content_type": 18,
+        "object_id_int": 1,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T01:59:31.194Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Homepage\", \"custom_template\": \"{{object.content|safe}}\", \"created_by\": 1, \"version\": 3, \"created_date\": \"2015-08-10T01:53:10.369Z\", \"slug\": \"homepage\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 1}]",
+        "revision": 5
+    },
+    "model": "reversion.version",
+    "pk": 5
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Partials > Modernizr",
+        "object_id": "2",
+        "content_type": 18,
+        "object_id_int": 2,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:48:51.171Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Partials > Modernizr\", \"custom_template\": \"<!-- Modernizr -->\\r\\n<script>\\r\\n//INLINED FOR ENHANCED LOADING\\r\\n/* Modernizr 2.7.1 (Custom Build) | MIT & BSD\\r\\n * Build: http://modernizr.com/download/#-fontface-backgroundsize-borderimage-borderradius-boxshadow-flexbox-hsla-multiplebgs-opacity-rgba-textshadow-cssanimations-csscolumns-generatedcontent-cssgradients-cssreflections-csstransforms-csstransforms3d-csstransitions-applicationcache-canvas-canvastext-draganddrop-hashchange-history-audio-video-indexeddb-input-inputtypes-localstorage-postmessage-sessionstorage-websockets-websqldatabase-webworkers-geolocation-inlinesvg-smil-svg-svgclippaths-touch-webgl-shiv-mq-cssclasses-addtest-prefixed-teststyles-testprop-testallprops-hasevent-prefixes-domprefixes-load\\r\\n */\\r\\n;window.Modernizr=function(a,b,c){function D(a){j.cssText=a}function E(a,b){return D(n.join(a+\\\";\\\")+(b||\\\"\\\"))}function F(a,b){return typeof a===b}function G(a,b){return!!~(\\\"\\\"+a).indexOf(b)}function H(a,b){for(var d in a){var e=a[d];if(!G(e,\\\"-\\\")&&j[e]!==c)return b==\\\"pfx\\\"?e:!0}return!1}function I(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:F(f,\\\"function\\\")?f.bind(d||b):f}return!1}function J(a,b,c){var d=a.charAt(0).toUpperCase()+a.slice(1),e=(a+\\\" \\\"+p.join(d+\\\" \\\")+d).split(\\\" \\\");return F(b,\\\"string\\\")||F(b,\\\"undefined\\\")?H(e,b):(e=(a+\\\" \\\"+q.join(d+\\\" \\\")+d).split(\\\" \\\"),I(e,b,c))}function K(){e.input=function(c){for(var d=0,e=c.length;d<e;d++)u[c[d]]=c[d]in k;return u.list&&(u.list=!!b.createElement(\\\"datalist\\\")&&!!a.HTMLDataListElement),u}(\\\"autocomplete autofocus list placeholder max min multiple pattern required step\\\".split(\\\" \\\")),e.inputtypes=function(a){for(var d=0,e,f,h,i=a.length;d<i;d++)k.setAttribute(\\\"type\\\",f=a[d]),e=k.type!==\\\"text\\\",e&&(k.value=l,k.style.cssText=\\\"position:absolute;visibility:hidden;\\\",/^range$/.test(f)&&k.style.WebkitAppearance!==c?(g.appendChild(k),h=b.defaultView,e=h.getComputedStyle&&h.getComputedStyle(k,null).WebkitAppearance!==\\\"textfield\\\"&&k.offsetHeight!==0,g.removeChild(k)):/^(search|tel)$/.test(f)||(/^(url|email)$/.test(f)?e=k.checkValidity&&k.checkValidity()===!1:e=k.value!=l)),t[a[d]]=!!e;return t}(\\\"search tel url email datetime date month week time datetime-local number range color\\\".split(\\\" \\\"))}var d=\\\"2.7.1\\\",e={},f=!0,g=b.documentElement,h=\\\"modernizr\\\",i=b.createElement(h),j=i.style,k=b.createElement(\\\"input\\\"),l=\\\":)\\\",m={}.toString,n=\\\" -webkit- -moz- -o- -ms- \\\".split(\\\" \\\"),o=\\\"Webkit Moz O ms\\\",p=o.split(\\\" \\\"),q=o.toLowerCase().split(\\\" \\\"),r={svg:\\\"http://www.w3.org/2000/svg\\\"},s={},t={},u={},v=[],w=v.slice,x,y=function(a,c,d,e){var f,i,j,k,l=b.createElement(\\\"div\\\"),m=b.body,n=m||b.createElement(\\\"body\\\");if(parseInt(d,10))while(d--)j=b.createElement(\\\"div\\\"),j.id=e?e[d]:h+(d+1),l.appendChild(j);return f=[\\\"&#173;\\\",'<style id=\\\"s',h,'\\\">',a,\\\"</style>\\\"].join(\\\"\\\"),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background=\\\"\\\",n.style.overflow=\\\"hidden\\\",k=g.style.overflow,g.style.overflow=\\\"hidden\\\",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},z=function(b){var c=a.matchMedia||a.msMatchMedia;if(c)return c(b).matches;var d;return y(\\\"@media \\\"+b+\\\" { #\\\"+h+\\\" { position: absolute; } }\\\",function(b){d=(a.getComputedStyle?getComputedStyle(b,null):b.currentStyle)[\\\"position\\\"]==\\\"absolute\\\"}),d},A=function(){function d(d,e){e=e||b.createElement(a[d]||\\\"div\\\"),d=\\\"on\\\"+d;var f=d in e;return f||(e.setAttribute||(e=b.createElement(\\\"div\\\")),e.setAttribute&&e.removeAttribute&&(e.setAttribute(d,\\\"\\\"),f=F(e[d],\\\"function\\\"),F(e[d],\\\"undefined\\\")||(e[d]=c),e.removeAttribute(d))),e=null,f}var a={select:\\\"input\\\",change:\\\"input\\\",submit:\\\"form\\\",reset:\\\"form\\\",error:\\\"img\\\",load:\\\"img\\\",abort:\\\"img\\\"};return d}(),B={}.hasOwnProperty,C;!F(B,\\\"undefined\\\")&&!F(B.call,\\\"undefined\\\")?C=function(a,b){return B.call(a,b)}:C=function(a,b){return b in a&&F(a.constructor.prototype[b],\\\"undefined\\\")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!=\\\"function\\\")throw new TypeError;var d=w.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(w.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(w.call(arguments)))};return e}),s.flexbox=function(){return J(\\\"flexWrap\\\")},s.canvas=function(){var a=b.createElement(\\\"canvas\\\");return!!a.getContext&&!!a.getContext(\\\"2d\\\")},s.canvastext=function(){return!!e.canvas&&!!F(b.createElement(\\\"canvas\\\").getContext(\\\"2d\\\").fillText,\\\"function\\\")},s.webgl=function(){return!!a.WebGLRenderingContext},s.touch=function(){var c;return\\\"ontouchstart\\\"in a||a.DocumentTouch&&b instanceof DocumentTouch?c=!0:y([\\\"@media (\\\",n.join(\\\"touch-enabled),(\\\"),h,\\\")\\\",\\\"{#modernizr{top:9px;position:absolute}}\\\"].join(\\\"\\\"),function(a){c=a.offsetTop===9}),c},s.geolocation=function(){return\\\"geolocation\\\"in navigator},s.postmessage=function(){return!!a.postMessage},s.websqldatabase=function(){return!!a.openDatabase},s.indexedDB=function(){return!!J(\\\"indexedDB\\\",a)},s.hashchange=function(){return A(\\\"hashchange\\\",a)&&(b.documentMode===c||b.documentMode>7)},s.history=function(){return!!a.history&&!!history.pushState},s.draganddrop=function(){var a=b.createElement(\\\"div\\\");return\\\"draggable\\\"in a||\\\"ondragstart\\\"in a&&\\\"ondrop\\\"in a},s.websockets=function(){return\\\"WebSocket\\\"in a||\\\"MozWebSocket\\\"in a},s.rgba=function(){return D(\\\"background-color:rgba(150,255,150,.5)\\\"),G(j.backgroundColor,\\\"rgba\\\")},s.hsla=function(){return D(\\\"background-color:hsla(120,40%,100%,.5)\\\"),G(j.backgroundColor,\\\"rgba\\\")||G(j.backgroundColor,\\\"hsla\\\")},s.multiplebgs=function(){return D(\\\"background:url(https://),url(https://),red url(https://)\\\"),/(url\\\\s*\\\\(.*?){3}/.test(j.background)},s.backgroundsize=function(){return J(\\\"backgroundSize\\\")},s.borderimage=function(){return J(\\\"borderImage\\\")},s.borderradius=function(){return J(\\\"borderRadius\\\")},s.boxshadow=function(){return J(\\\"boxShadow\\\")},s.textshadow=function(){return b.createElement(\\\"div\\\").style.textShadow===\\\"\\\"},s.opacity=function(){return E(\\\"opacity:.55\\\"),/^0.55$/.test(j.opacity)},s.cssanimations=function(){return J(\\\"animationName\\\")},s.csscolumns=function(){return J(\\\"columnCount\\\")},s.cssgradients=function(){var a=\\\"background-image:\\\",b=\\\"gradient(linear,left top,right bottom,from(#9f9),to(white));\\\",c=\\\"linear-gradient(left top,#9f9, white);\\\";return D((a+\\\"-webkit- \\\".split(\\\" \\\").join(b+a)+n.join(c+a)).slice(0,-a.length)),G(j.backgroundImage,\\\"gradient\\\")},s.cssreflections=function(){return J(\\\"boxReflect\\\")},s.csstransforms=function(){return!!J(\\\"transform\\\")},s.csstransforms3d=function(){var a=!!J(\\\"perspective\\\");return a&&\\\"webkitPerspective\\\"in g.style&&y(\\\"@media (transform-3d),(-webkit-transform-3d){#modernizr{left:9px;position:absolute;height:3px;}}\\\",function(b,c){a=b.offsetLeft===9&&b.offsetHeight===3}),a},s.csstransitions=function(){return J(\\\"transition\\\")},s.fontface=function(){var a;return y('@font-face {font-family:\\\"font\\\";src:url(\\\"https://\\\")}',function(c,d){var e=b.getElementById(\\\"smodernizr\\\"),f=e.sheet||e.styleSheet,g=f?f.cssRules&&f.cssRules[0]?f.cssRules[0].cssText:f.cssText||\\\"\\\":\\\"\\\";a=/src/i.test(g)&&g.indexOf(d.split(\\\" \\\")[0])===0}),a},s.generatedcontent=function(){var a;return y([\\\"#\\\",h,\\\"{font:0/0 a}#\\\",h,':after{content:\\\"',l,'\\\";visibility:hidden;font:3px/1 a}'].join(\\\"\\\"),function(b){a=b.offsetHeight>=3}),a},s.video=function(){var a=b.createElement(\\\"video\\\"),c=!1;try{if(c=!!a.canPlayType)c=new Boolean(c),c.ogg=a.canPlayType('video/ogg; codecs=\\\"theora\\\"').replace(/^no$/,\\\"\\\"),c.h264=a.canPlayType('video/mp4; codecs=\\\"avc1.42E01E\\\"').replace(/^no$/,\\\"\\\"),c.webm=a.canPlayType('video/webm; codecs=\\\"vp8, vorbis\\\"').replace(/^no$/,\\\"\\\")}catch(d){}return c},s.audio=function(){var a=b.createElement(\\\"audio\\\"),c=!1;try{if(c=!!a.canPlayType)c=new Boolean(c),c.ogg=a.canPlayType('audio/ogg; codecs=\\\"vorbis\\\"').replace(/^no$/,\\\"\\\"),c.mp3=a.canPlayType(\\\"audio/mpeg;\\\").replace(/^no$/,\\\"\\\"),c.wav=a.canPlayType('audio/wav; codecs=\\\"1\\\"').replace(/^no$/,\\\"\\\"),c.m4a=(a.canPlayType(\\\"audio/x-m4a;\\\")||a.canPlayType(\\\"audio/aac;\\\")).replace(/^no$/,\\\"\\\")}catch(d){}return c},s.localstorage=function(){try{return localStorage.setItem(h,h),localStorage.removeItem(h),!0}catch(a){return!1}},s.sessionstorage=function(){try{return sessionStorage.setItem(h,h),sessionStorage.removeItem(h),!0}catch(a){return!1}},s.webworkers=function(){return!!a.Worker},s.applicationcache=function(){return!!a.applicationCache},s.svg=function(){return!!b.createElementNS&&!!b.createElementNS(r.svg,\\\"svg\\\").createSVGRect},s.inlinesvg=function(){var a=b.createElement(\\\"div\\\");return a.innerHTML=\\\"<svg/>\\\",(a.firstChild&&a.firstChild.namespaceURI)==r.svg},s.smil=function(){return!!b.createElementNS&&/SVGAnimate/.test(m.call(b.createElementNS(r.svg,\\\"animate\\\")))},s.svgclippaths=function(){return!!b.createElementNS&&/SVGClipPath/.test(m.call(b.createElementNS(r.svg,\\\"clipPath\\\")))};for(var L in s)C(s,L)&&(x=L.toLowerCase(),e[x]=s[L](),v.push((e[x]?\\\"\\\":\\\"no-\\\")+x));return e.input||K(),e.addTest=function(a,b){if(typeof a==\\\"object\\\")for(var d in a)C(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b==\\\"function\\\"?b():b,typeof f!=\\\"undefined\\\"&&f&&(g.className+=\\\" \\\"+(b?\\\"\\\":\\\"no-\\\")+a),e[a]=b}return e},D(\\\"\\\"),i=k=null,function(a,b){function l(a,b){var c=a.createElement(\\\"p\\\"),d=a.getElementsByTagName(\\\"head\\\")[0]||a.documentElement;return c.innerHTML=\\\"x<style>\\\"+b+\\\"</style>\\\",d.insertBefore(c.lastChild,d.firstChild)}function m(){var a=s.elements;return typeof a==\\\"string\\\"?a.split(\\\" \\\"):a}function n(a){var b=j[a[h]];return b||(b={},i++,a[h]=i,j[i]=b),b}function o(a,c,d){c||(c=b);if(k)return c.createElement(a);d||(d=n(c));var g;return d.cache[a]?g=d.cache[a].cloneNode():f.test(a)?g=(d.cache[a]=d.createElem(a)).cloneNode():g=d.createElem(a),g.canHaveChildren&&!e.test(a)&&!g.tagUrn?d.frag.appendChild(g):g}function p(a,c){a||(a=b);if(k)return a.createDocumentFragment();c=c||n(a);var d=c.frag.cloneNode(),e=0,f=m(),g=f.length;for(;e<g;e++)d.createElement(f[e]);return d}function q(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(c){return s.shivMethods?o(c,a,b):b.createElem(c)},a.createDocumentFragment=Function(\\\"h,f\\\",\\\"return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&(\\\"+m().join().replace(/[\\\\w\\\\-]+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c(\\\"'+a+'\\\")'})+\\\");return n}\\\")(s,b.frag)}function r(a){a||(a=b);var c=n(a);return s.shivCSS&&!g&&!c.hasCSS&&(c.hasCSS=!!l(a,\\\"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}\\\")),k||q(a,c),a}var c=\\\"3.7.0\\\",d=a.html5||{},e=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,f=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,g,h=\\\"_html5shiv\\\",i=0,j={},k;(function(){try{var a=b.createElement(\\\"a\\\");a.innerHTML=\\\"<xyz></xyz>\\\",g=\\\"hidden\\\"in a,k=a.childNodes.length==1||function(){b.createElement(\\\"a\\\");var a=b.createDocumentFragment();return typeof a.cloneNode==\\\"undefined\\\"||typeof a.createDocumentFragment==\\\"undefined\\\"||typeof a.createElement==\\\"undefined\\\"}()}catch(c){g=!0,k=!0}})();var s={elements:d.elements||\\\"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video\\\",version:c,shivCSS:d.shivCSS!==!1,supportsUnknownElements:k,shivMethods:d.shivMethods!==!1,type:\\\"default\\\",shivDocument:r,createElement:o,createDocumentFragment:p};a.html5=s,r(b)}(this,b),e._version=d,e._prefixes=n,e._domPrefixes=q,e._cssomPrefixes=p,e.mq=z,e.hasEvent=A,e.testProp=function(a){return H([a])},e.testAllProps=J,e.testStyles=y,e.prefixed=function(a,b,c){return b?J(a,b,c):J(a,\\\"pfx\\\")},g.className=g.className.replace(/(^|\\\\s)no-js(\\\\s|$)/,\\\"$1$2\\\")+(f?\\\" js \\\"+v.join(\\\" \\\"):\\\"\\\"),e}(this,this.document),function(a,b,c){function d(a){return\\\"[object Function]\\\"==o.call(a)}function e(a){return\\\"string\\\"==typeof a}function f(){}function g(a){return!a||\\\"loaded\\\"==a||\\\"complete\\\"==a||\\\"uninitialized\\\"==a}function h(){var a=p.shift();q=1,a?a.t?m(function(){(\\\"c\\\"==a.t?B.injectCss:B.injectJs)(a.s,0,a.a,a.x,a.e,1)},0):(a(),h()):q=0}function i(a,c,d,e,f,i,j){function k(b){if(!o&&g(l.readyState)&&(u.r=o=1,!q&&h(),l.onload=l.onreadystatechange=null,b)){\\\"img\\\"!=a&&m(function(){t.removeChild(l)},50);for(var d in y[c])y[c].hasOwnProperty(d)&&y[c][d].onload()}}var j=j||B.errorTimeout,l=b.createElement(a),o=0,r=0,u={t:d,s:c,e:f,a:i,x:j};1===y[c]&&(r=1,y[c]=[]),\\\"object\\\"==a?l.data=c:(l.src=c,l.type=a),l.width=l.height=\\\"0\\\",l.onerror=l.onload=l.onreadystatechange=function(){k.call(this,r)},p.splice(e,0,u),\\\"img\\\"!=a&&(r||2===y[c]?(t.insertBefore(l,s?null:n),m(k,j)):y[c].push(l))}function j(a,b,c,d,f){return q=0,b=b||\\\"j\\\",e(a)?i(\\\"c\\\"==b?v:u,a,b,this.i++,c,d,f):(p.splice(this.i++,0,a),1==p.length&&h()),this}function k(){var a=B;return a.loader={load:j,i:0},a}var l=b.documentElement,m=a.setTimeout,n=b.getElementsByTagName(\\\"script\\\")[0],o={}.toString,p=[],q=0,r=\\\"MozAppearance\\\"in l.style,s=r&&!!b.createRange().compareNode,t=s?l:n.parentNode,l=a.opera&&\\\"[object Opera]\\\"==o.call(a.opera),l=!!b.attachEvent&&!l,u=r?\\\"object\\\":l?\\\"script\\\":\\\"img\\\",v=l?\\\"script\\\":u,w=Array.isArray||function(a){return\\\"[object Array]\\\"==o.call(a)},x=[],y={},z={timeout:function(a,b){return b.length&&(a.timeout=b[0]),a}},A,B;B=function(a){function b(a){var a=a.split(\\\"!\\\"),b=x.length,c=a.pop(),d=a.length,c={url:c,origUrl:c,prefixes:a},e,f,g;for(f=0;f<d;f++)g=a[f].split(\\\"=\\\"),(e=z[g.shift()])&&(c=e(c,g));for(f=0;f<b;f++)c=x[f](c);return c}function g(a,e,f,g,h){var i=b(a),j=i.autoCallback;i.url.split(\\\".\\\").pop().split(\\\"?\\\").shift(),i.bypass||(e&&(e=d(e)?e:e[a]||e[g]||e[a.split(\\\"/\\\").pop().split(\\\"?\\\")[0]]),i.instead?i.instead(a,e,f,g,h):(y[i.url]?i.noexec=!0:y[i.url]=1,f.load(i.url,i.forceCSS||!i.forceJS&&\\\"css\\\"==i.url.split(\\\".\\\").pop().split(\\\"?\\\").shift()?\\\"c\\\":c,i.noexec,i.attrs,i.timeout),(d(e)||d(j))&&f.load(function(){k(),e&&e(i.origUrl,h,g),j&&j(i.origUrl,h,g),y[i.url]=2})))}function h(a,b){function c(a,c){if(a){if(e(a))c||(j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}),g(a,j,b,0,h);else if(Object(a)===a)for(n in m=function(){var b=0,c;for(c in a)a.hasOwnProperty(c)&&b++;return b}(),a)a.hasOwnProperty(n)&&(!c&&!--m&&(d(j)?j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}:j[n]=function(a){return function(){var b=[].slice.call(arguments);a&&a.apply(this,b),l()}}(k[n])),g(a[n],j,b,n,h))}else!c&&l()}var h=!!a.test,i=a.load||a.both,j=a.callback||f,k=j,l=a.complete||f,m,n;c(h?a.yep:a.nope,!!i),i&&c(i)}var i,j,l=this.yepnope.loader;if(e(a))g(a,0,l,0);else if(w(a))for(i=0;i<a.length;i++)j=a[i],e(j)?g(j,0,l,0):w(j)?B(j):Object(j)===j&&h(j,l);else Object(a)===a&&h(a,l)},B.addPrefix=function(a,b){z[a]=b},B.addFilter=function(a){x.push(a)},B.errorTimeout=1e4,null==b.readyState&&b.addEventListener&&(b.readyState=\\\"loading\\\",b.addEventListener(\\\"DOMContentLoaded\\\",A=function(){b.removeEventListener(\\\"DOMContentLoaded\\\",A,0),b.readyState=\\\"complete\\\"},0)),a.yepnope=k(),a.yepnope.executeStack=h,a.yepnope.injectJs=function(a,c,d,e,i,j){var k=b.createElement(\\\"script\\\"),l,o,e=e||B.errorTimeout;k.src=a;for(o in d)k.setAttribute(o,d[o]);c=j?h:c||f,k.onreadystatechange=k.onload=function(){!l&&g(k.readyState)&&(l=1,c(),k.onload=k.onreadystatechange=null)},m(function(){l||(l=1,c(1))},e),i?k.onload():n.parentNode.insertBefore(k,n)},a.yepnope.injectCss=function(a,c,d,e,g,i){var e=b.createElement(\\\"link\\\"),j,c=i?h:c||f;e.href=a,e.rel=\\\"stylesheet\\\",e.type=\\\"text/css\\\";for(j in d)e.setAttribute(j,d[j]);g||(n.parentNode.insertBefore(e,n),m(c,0))}}(this,document),Modernizr.load=function(){yepnope.apply(window,[].slice.call(arguments,0))};\\r\\n\\r\\n//READY FUNCTION\\r\\nvar ready=function(){function i(){if(r.isReady){return}try{document.documentElement.doScroll(\\\"left\\\")}catch(e){setTimeout(i,1);return}r.ready()}function s(t){r.bindReady();var n=r.type(t);e.done(t)}var e,t,n={};n[\\\"[object Boolean]\\\"]=\\\"boolean\\\";n[\\\"[object Number]\\\"]=\\\"number\\\";n[\\\"[object String]\\\"]=\\\"string\\\";n[\\\"[object Function]\\\"]=\\\"function\\\";n[\\\"[object Array]\\\"]=\\\"array\\\";n[\\\"[object Date]\\\"]=\\\"date\\\";n[\\\"[object RegExp]\\\"]=\\\"regexp\\\";n[\\\"[object Object]\\\"]=\\\"object\\\";var r={isReady:false,readyWait:1,holdReady:function(e){if(e){r.readyWait++}else{r.ready(true)}},ready:function(t){if(t===true&&!--r.readyWait||t!==true&&!r.isReady){if(!document.body){return setTimeout(r.ready,1)}r.isReady=true;if(t!==true&&--r.readyWait>0){return}e.resolveWith(document,[r])}},bindReady:function(){if(e){return}e=r._Deferred();if(document.readyState===\\\"complete\\\"){return setTimeout(r.ready,1)}if(document.addEventListener){document.addEventListener(\\\"DOMContentLoaded\\\",t,false);window.addEventListener(\\\"load\\\",r.ready,false)}else if(document.attachEvent){document.attachEvent(\\\"onreadystatechange\\\",t);window.attachEvent(\\\"onload\\\",r.ready);var n=false;try{n=window.frameElement==null}catch(s){}if(document.documentElement.doScroll&&n){i()}}},_Deferred:function(){var e=[],t,n,i,s={done:function(){if(!i){var n=arguments,o,u,a,f,l;if(t){l=t;t=0}for(o=0,u=n.length;o<u;o++){a=n[o];f=r.type(a);if(f===\\\"array\\\"){s.done.apply(s,a)}else if(f===\\\"function\\\"){e.push(a)}}if(l){s.resolveWith(l[0],l[1])}}return this},resolveWith:function(r,s){if(!i&&!t&&!n){s=s||[];n=1;try{while(e[0]){e.shift().apply(r,s)}}finally{t=[r,s];n=0}}return this},resolve:function(){s.resolveWith(this,arguments);return this},isResolved:function(){return!!(n||t)},cancel:function(){i=1;e=[];return this}};return s},type:function(e){return e==null?String(e):n[Object.prototype.toString.call(e)]||\\\"object\\\"}};if(document.addEventListener){t=function(){document.removeEventListener(\\\"DOMContentLoaded\\\",t,false);r.ready()}}else if(document.attachEvent){t=function(){if(document.readyState===\\\"complete\\\"){document.detachEvent(\\\"onreadystatechange\\\",t);r.ready()}}}return s}()\\r\\n</script>\", \"created_by\": 1, \"version\": 1, \"created_date\": \"2015-08-10T02:48:51.171Z\", \"slug\": \"partials_modernizr\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 2}]",
+        "revision": 6
+    },
+    "model": "reversion.version",
+    "pk": 6
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Partials > Debug",
+        "object_id": "3",
+        "content_type": 18,
+        "object_id_int": 3,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:49:35.334Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Partials > Debug\", \"custom_template\": \"{% load i18n helpful_tags %}\\r\\n\\r\\n{% if request.user or request.original_user %}\\r\\n{% if request.user.is_staff or request.original_user.is_staff %}\\r\\n<div class=\\\"container\\\">\\r\\n    <div class=\\\"debug-container\\\">\\r\\n        \\r\\n        &raquo; \\r\\n        \\r\\n        {% if object %}\\r\\n    \\t{% get_model_label object as model_label %}\\r\\n        <span>{{model_label}} [{{object.pk}}]</span>        \\r\\n        \\r\\n        {% if object.is_published == False %}<strong>This item is not published</strong>{% endif %}\\r\\n        {% if object.is_moderated == False %}<strong>This item is not moderated</strong>{% endif %}\\r\\n        \\r\\n        \\r\\n        {% url_to_edit_object object as edit_url %}\\r\\n        <a href=\\\"{{edit_url}}\\\" target=\\\"_blank\\\">{% trans \\\"Edit in admin\\\" %}</a>  \\r\\n        {% endif %}\\r\\n         \\r\\n        \\r\\n        <span class=\\\"pull-right\\\">\\r\\n            {% if request.impersonating %}Impersonating {{request.impersonating}} | <a href='{% url_add_query __unimpersonate=True %}'>Stop Impersonating</a>{% endif %}\\r\\n            <a href=\\\"#\\\" class=\\\"debug-item-toggle\\\"><i class=\\\"fa fa-search\\\"></i></a>\\r\\n        </span>\\r\\n        \\r\\n    </div>\\r\\n</div>\\r\\n\\r\\n{% endif %}\\r\\n{% endif %}\", \"created_by\": 1, \"version\": 1, \"created_date\": \"2015-08-10T02:49:35.334Z\", \"slug\": \"partials_debug\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 3}]",
+        "revision": 7
+    },
+    "model": "reversion.version",
+    "pk": 7
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Partials > Footer",
+        "object_id": "4",
+        "content_type": 18,
+        "object_id_int": 4,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:49:55.575Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Partials > Footer\", \"custom_template\": \"{% load staticfiles i18n helpful_tags core_tags cache %}\\r\\n<footer id=\\\"footer\\\">\\r\\n    <div class=\\\"container\\\" itemscope itemtype=\\\"http://schema.org/LocalBusiness\\\">\\r\\n        \\r\\n        {% cache 86400 'site-menu-footer' %}  \\r\\n        {% get_link_descendants \\\"footer-menu\\\" as footerlinks %}\\r\\n        <ul class=\\\"footer-links debug-item {{footerlinks.css_classes}}\\\" {{footerlinks.item|edit_attribute}} >\\r\\n            <li>&copy; {% now \\\"Y\\\" %} <span itemprop=\\\"name\\\">Chris Harburg Photography</span></li>\\r\\n            {% for obj in footerlinks.children %}\\r\\n            <li class=\\\"{{obj.item.css_classes}}\\\"><a href=\\\"{{ obj.item.path }}\\\"><span {{obj.item.extra_attributes|safe}}>{{ obj.item.title }}</span></a></li>\\r\\n            {% endfor %}\\r\\n        </ul>\\r\\n        {% endcache %}\\r\\n        \\r\\n        {% cache 86400 'site-social-links-footer' %}  \\r\\n        {% get_link_descendants \\\"social-media-links\\\" as sociallinks %}\\r\\n        <ul class=\\\"footer-social-links debug-item  {{footerlinks.css_classes}}\\\" {{sociallinks.item|edit_attribute}} >\\r\\n            {% for obj in sociallinks.children %}\\r\\n        \\t<li class=\\\"{{obj.item.css_classes}}\\\"><a href=\\\"{{ obj.item.path }}\\\" target=\\\"_blank\\\"  {{obj.item.extra_attributes|safe}} ><i class=\\\"fa fa-{{obj.item.slug}}\\\"></i></a></li>\\r\\n            {% endfor %}\\r\\n        </ul>\\r\\n        {% endcache %}\\r\\n        \\r\\n    </div>\\r\\n</footer>\", \"created_by\": 1, \"version\": 1, \"created_date\": \"2015-08-10T02:49:55.575Z\", \"slug\": \"partials_footer\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 4}]",
+        "revision": 8
+    },
+    "model": "reversion.version",
+    "pk": 8
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Partials > Footer",
+        "object_id": "4",
+        "content_type": 18,
+        "object_id_int": 4,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:49:59.530Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Partials > Footer\", \"custom_template\": \"{% load staticfiles i18n helpful_tags core_tags cache %}\\r\\n<footer id=\\\"footer\\\">\\r\\n    <div class=\\\"container\\\" itemscope itemtype=\\\"http://schema.org/LocalBusiness\\\">\\r\\n        \\r\\n        {% cache 86400 'site-menu-footer' %}  \\r\\n        {% get_link_descendants \\\"footer-menu\\\" as footerlinks %}\\r\\n        <ul class=\\\"footer-links debug-item {{footerlinks.css_classes}}\\\" {{footerlinks.item|edit_attribute}} >\\r\\n            <li>&copy; {% now \\\"Y\\\" %} <span itemprop=\\\"name\\\">Chris Harburg Photography</span></li>\\r\\n            {% for obj in footerlinks.children %}\\r\\n            <li class=\\\"{{obj.item.css_classes}}\\\"><a href=\\\"{{ obj.item.path }}\\\"><span {{obj.item.extra_attributes|safe}}>{{ obj.item.title }}</span></a></li>\\r\\n            {% endfor %}\\r\\n        </ul>\\r\\n        {% endcache %}\\r\\n        \\r\\n        {% cache 86400 'site-social-links-footer' %}  \\r\\n        {% get_link_descendants \\\"social-media-links\\\" as sociallinks %}\\r\\n        <ul class=\\\"footer-social-links debug-item  {{footerlinks.css_classes}}\\\" {{sociallinks.item|edit_attribute}} >\\r\\n            {% for obj in sociallinks.children %}\\r\\n        \\t<li class=\\\"{{obj.item.css_classes}}\\\"><a href=\\\"{{ obj.item.path }}\\\" target=\\\"_blank\\\"  {{obj.item.extra_attributes|safe}} ><i class=\\\"fa fa-{{obj.item.slug}}\\\"></i></a></li>\\r\\n            {% endfor %}\\r\\n        </ul>\\r\\n        {% endcache %}\\r\\n        \\r\\n    </div>\\r\\n</footer>\", \"created_by\": 1, \"version\": 2, \"created_date\": \"2015-08-10T02:49:55.575Z\", \"slug\": \"partials_footer\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 4}]",
+        "revision": 9
+    },
+    "model": "reversion.version",
+    "pk": 9
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Partials > Pagination",
+        "object_id": "5",
+        "content_type": 18,
+        "object_id_int": 5,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:50:13.848Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Partials > Pagination\", \"custom_template\": \"{% load helpful_tags %}\\r\\n\\r\\n{% if page_obj.has_previous or page_obj.has_next %}\\r\\n<ul class=\\\"pagination\\\">\\r\\n        {% if page_obj.has_previous %}\\r\\n            <li>\\r\\n                <a href=\\\"{% url_add_query page=page_obj.previous_page_number %}\\\" aria-label=\\\"Previous\\\">\\r\\n                    <span aria-hidden=\\\"true\\\">&laquo;</span>\\r\\n                </a>\\r\\n            </li>\\r\\n        {% endif %}\\r\\n\\r\\n       \\r\\n        {% pick_pages page_obj.paginator.num_pages page_obj.number as pagination_range %}\\r\\n        {% for i in pagination_range %}\\r\\n\\r\\n            {% if i %}\\r\\n            <li {% if page_obj.number = i %}class=\\\"active\\\"{% endif %}>\\r\\n                <a href=\\\"{% url_add_query page=i %}\\\">{{i}}</a>\\r\\n            </li>    \\r\\n            {% else %}\\r\\n            <li class=\\\"inactive\\\">&hellip;</li>    \\r\\n            {% endif %}\\r\\n        {% endfor %}  \\r\\n\\r\\n\\r\\n        {% if page_obj.has_next %}\\r\\n            <li>\\r\\n                <a href=\\\"{% url_add_query page=page_obj.next_page_number %}\\\" aria-label=\\\"Next\\\">\\r\\n                    <span aria-hidden=\\\"true\\\">&raquo;</span>\\r\\n                </a>\\r\\n            </li>\\r\\n        {% endif %}\\r\\n</ul>\\r\\n{% endif %}\", \"created_by\": 1, \"version\": 1, \"created_date\": \"2015-08-10T02:50:13.848Z\", \"slug\": \"partials_pagination\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 5}]",
+        "revision": 10
+    },
+    "model": "reversion.version",
+    "pk": 10
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Partials > Social Sharing",
+        "object_id": "6",
+        "content_type": 18,
+        "object_id_int": 6,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:50:30.291Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Partials > Social Sharing\", \"custom_template\": \"{% load staticfiles i18n helpful_tags core_tags cache share_me_share_me_tags %}\\r\\n\\r\\n{% if object and object.shareable %}\\r\\n{% get_social_share_links as social_links %}\\r\\n{% if social_links|length > 0 %}\\r\\n<ul class=\\\"social sticky\\\">\\r\\n\\t{% for link in social_links %}\\r\\n\\t    {% with url=object.get_absolute_url %}\\r\\n\\t\\t{% get_social_share_link link url object.title as link_url %}\\r\\n\\t\\t{% get_social_share_count link.type as share_count %}\\r\\n\\t\\t<li>\\r\\n\\t\\t\\t<a href=\\\"{{ link_url }}\\\" target=\\\"_blank\\\">\\r\\n\\t\\t\\t\\t<i class=\\\"fa fa-{{link.font_awesome_class}}\\\"></i>\\r\\n\\t\\t\\t</a>\\r\\n\\t\\t</li>\\r\\n\\t\\t{% endwith %}\\r\\n\\t{% endfor %}\\r\\n</ul>\\r\\n{% endif %}\\r\\n{% endif %}\", \"created_by\": 1, \"version\": 1, \"created_date\": \"2015-08-10T02:50:30.291Z\", \"slug\": \"partials_social_sharing\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 6}]",
+        "revision": 11
+    },
+    "model": "reversion.version",
+    "pk": 11
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Partials > Social Sharing",
+        "object_id": "6",
+        "content_type": 18,
+        "object_id_int": 6,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:50:32.877Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Partials > Social Sharing\", \"custom_template\": \"{% load staticfiles i18n helpful_tags core_tags cache share_me_share_me_tags %}\\r\\n\\r\\n{% if object and object.shareable %}\\r\\n{% get_social_share_links as social_links %}\\r\\n{% if social_links|length > 0 %}\\r\\n<ul class=\\\"social sticky\\\">\\r\\n\\t{% for link in social_links %}\\r\\n\\t    {% with url=object.get_absolute_url %}\\r\\n\\t\\t{% get_social_share_link link url object.title as link_url %}\\r\\n\\t\\t{% get_social_share_count link.type as share_count %}\\r\\n\\t\\t<li>\\r\\n\\t\\t\\t<a href=\\\"{{ link_url }}\\\" target=\\\"_blank\\\">\\r\\n\\t\\t\\t\\t<i class=\\\"fa fa-{{link.font_awesome_class}}\\\"></i>\\r\\n\\t\\t\\t</a>\\r\\n\\t\\t</li>\\r\\n\\t\\t{% endwith %}\\r\\n\\t{% endfor %}\\r\\n</ul>\\r\\n{% endif %}\\r\\n{% endif %}\", \"created_by\": 1, \"version\": 2, \"created_date\": \"2015-08-10T02:50:30.291Z\", \"slug\": \"partials_social_sharing\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 6}]",
+        "revision": 12
+    },
+    "model": "reversion.version",
+    "pk": 12
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Base Template",
+        "object_id": "7",
+        "content_type": 18,
+        "object_id_int": 7,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:51:37.626Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Base Template\", \"custom_template\": \"{% load staticfiles i18n helpful_tags cache core_tags %}\\r\\n<!DOCTYPE html>\\r\\n<!--[if lt IE 7]> <html class=\\\"no-js ie lt-ie7 lt-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if IE 7]>    <html class=\\\"no-js ie ie7 lt-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if IE 8]>    <html class=\\\"no-js ie ie8 lt-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if IE 9]>    <html class=\\\"no-js ie ie9 gte-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if gt IE 9]>    <html class=\\\"no-js gte-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if !IE ]>    <html class=\\\"no-js gte-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<html class=\\\"no-js gte-ie9\\\" lang=\\\"en\\\" >\\r\\n    <head>\\r\\n        <meta charset=\\\"utf-8\\\" />\\r\\n        <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\" />\\r\\n        <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1\\\" />\\r\\n\\r\\n        <title>{% block title %}{% if object %}{{ object.title }}{% endif %}{% endblock %}{% block titlediv %} | {% endblock %}{{ SITE_TITLE }}</title>\\r\\n        <meta name=\\\"description\\\" content=\\\"{% block description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta name=\\\"keywords\\\" content=\\\"{% block keywords %}{% if object.page_meta_keywords %}{{object.page_meta_keywords}}{% else %}Wedding, event, photography{% endif %}{% endblock %}\\\" />\\r\\n\\r\\n        <!-- Facebook Open Graph -->\\r\\n        <meta property=\\\"og:title\\\" content=\\\"{% block og:title %}{{ SITE_TITLE }}{% endblock %}\\\" />\\r\\n        <meta property=\\\"og:description\\\" content=\\\"{% block og:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta property=\\\"og:type\\\" content=\\\"{% block og:type %}article{% endblock %}\\\" />\\r\\n        <meta property=\\\"og:url\\\" content=\\\"{{ request.build_absolute_uri }}\\\" />\\r\\n        <meta property=\\\"og:site_name\\\" content=\\\"{{ SITE_TITLE }}\\\" />\\r\\n        <meta property=\\\"og:image\\\" content=\\\"{% block og:image %}{% static 'social-icon.png' %}{% endblock %}\\\" />\\r\\n\\r\\n        <!-- Twitter Card -->\\r\\n        <meta name=\\\"twitter:card\\\" content=\\\"summary\\\" />\\r\\n        <meta name=\\\"twitter:site\\\" content=\\\"{% block twitter:site %}@{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:title\\\" content=\\\"{% block twitter:title %}{{ SITE_TITLE }}{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:description\\\" content=\\\"{% block twitter:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:url\\\" content=\\\"{{ request.build_absolute_uri }}\\\" />\\r\\n        <meta name=\\\"twitter:image:src\\\" content=\\\"{% block twitter:image %}{% static 'social-icon.png' %}{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:creator\\\" content=\\\"{% block twitter:creator %}@{% endblock %}\\\" />\\r\\n        \\r\\n        <!-- Schema.org markup for Google+ --> \\r\\n        <meta itemprop=\\\"name\\\" content=\\\"{% block google:title %}{{ SITE_TITLE }}{% endblock %}\\\" />\\r\\n        <meta itemprop=\\\"description\\\" content=\\\"{% block google:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta itemprop=\\\"image\\\" content=\\\"{% block google:image %}{% static 'social-icon.png' %}{% endblock %}\\\" />\\r\\n\\r\\n        <link rel=\\\"canonical\\\" href=\\\"{% block canonical_url %}{% get_canonical_url as canonical_url %}{{canonical_url}}{% endblock %}\\\" />\\r\\n\\r\\n        <!-- Icons -->\\r\\n        <!-- See http://realfavicongenerator.net/ for generating favicon variants -->\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon.ico?v=1\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/apple-touch-icon-57x57.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/apple-touch-icon-60x60.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/apple-touch-icon-72x72.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/apple-touch-icon-76x76.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/apple-touch-icon-114x114.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/apple-touch-icon-120x120.png\\\" />      \\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/apple-touch-icon-144x144.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/apple-touch-icon-152x152.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/apple-touch-icon-180x180.png\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-16x16.png\\\" sizes=\\\"16x16\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-32x32.png\\\" sizes=\\\"32x32\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-96x96.png\\\" sizes=\\\"96x96\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-160x160.png\\\" sizes=\\\"160x160\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-192x192.png\\\" sizes=\\\"192x192\\\" />\\r\\n        <meta name=\\\"msapplication-TileColor\\\" content=\\\"#00a300\\\" />\\r\\n        <meta name=\\\"msapplication-TileImage\\\" content=\\\"/mstile-144x144.png\\\" />\\r\\n\\r\\n        <!-- WEBMASTER VERIFICATION -->\\r\\n        <meta name=\\\"google-site-verification\\\" content=\\\"_Va3UWlvCRY_SF6z7GhcekNLz7nekFlim3f-YAVHUH4\\\" />\\r\\n\\r\\n        <!-- FONT AWESOME -->\\r\\n        <link href=\\\"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\\\" rel=\\\"stylesheet\\\"/>\\r\\n    \\r\\n        <!-- FONTS -->\\r\\n        <link href='//fonts.googleapis.com/css?family=Quicksand:400,700|Great+Vibes|Merriweather:400,700' rel='stylesheet' type='text/css'>\\r\\n        \\r\\n        \\r\\n\\r\\n        {% block css %}{% endblock %}     \\r\\n        \\r\\n        \\r\\n        <!--[if lt IE 9]>\\r\\n            \\r\\n            <script src=\\\"//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js\\\"></script>\\r\\n            <script src=\\\"//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js\\\"></script>\\r\\n            <script src=\\\"//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js\\\"></script>\\r\\n            \\r\\n        <![endif]-->\\r\\n\\r\\n        {% include 'partials-modernizr' %}\\r\\n        \\r\\n    </head>\\r\\n    <body class=\\\"{% block bodyclass %}{% endblock %} {% if object %}page-{{object.slug}}{% endif %}\\\" data-site-id=\\\"{{SITE_ID}}\\\" {% block bodydata %}{% endblock %} {% block bodyscope %}itemscope itemType=\\\"https://schema.org/WebPage\\\"{% endblock %}>\\r\\n        \\r\\n        <header id=\\\"header\\\">            \\r\\n    \\r\\n            <nav class=\\\"navbar navbar-fixed-top\\\">\\r\\n                {% include 'partials-debug' %}\\r\\n              <div class=\\\"container menu\\\">\\r\\n                \\r\\n                <div class=\\\"navbar-header\\\">\\r\\n                    <button type=\\\"button\\\" class=\\\"navbar-toggle collapsed\\\" data-toggle=\\\"collapse\\\" data-target=\\\"#navbar\\\" aria-expanded=\\\"false\\\" aria-controls=\\\"navbar\\\">\\r\\n                    {{ SITE_TITLE }}\\r\\n                    </button>            \\r\\n                </div>\\r\\n                \\r\\n                <div>\\r\\n                   <div id=\\\"navbar\\\" class=\\\"navbar-collapse collapse\\\"> \\r\\n                   \\r\\n                        <a class=\\\"navbar-brand\\\" href=\\\"/\\\">\\r\\n                          {% block site_header_title %}\\r\\n                          <span>Home</span>\\r\\n                          {% endblock %}\\r\\n                        </a>\\r\\n                        \\r\\n                        {% cache 86400 'header-menu-left' %} \\r\\n                        {% get_link_descendants \\\"header-menu-left\\\" as headerlinks %}\\r\\n                        <ul class=\\\"nav navbar-nav debug-item {{headerlinks.item.css_classes}}\\\" {{headerlinks.item|edit_attribute}}>\\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        {% for obj in headerlinks.children %}\\r\\n                        \\r\\n                        {% if obj.children.children|length > 0 %}\\r\\n                        <li class=\\\"dropdown\\\">\\r\\n                            <a href=\\\"{{ obj.item.path }}\\\" class=\\\"dropdown-toggle\\\" data-toggle=\\\"dropdown\\\" role=\\\"button\\\" aria-expanded=\\\"false\\\">{{ obj.item.title }} <span class=\\\"caret\\\"></span></a>\\r\\n                            \\r\\n                            <ul class=\\\"dropdown-menu\\\" role=\\\"menu\\\">\\r\\n                            {% for child in obj.children.children %}\\r\\n                                <li class=\\\"level-1\\\"><a href=\\\"{{ child.item.path }}\\\">{{ child.item.title }}</a></li>\\r\\n                            \\r\\n                                {% for subchild in child.children.children %}\\r\\n                                <li class=\\\"level-2\\\"><a href=\\\"{{ subchild.item.path }}\\\">{{ subchild.item.title }}</a></li>\\r\\n                                {% endfor %}\\r\\n                                \\r\\n                            {% endfor %}\\r\\n                            </ul>\\r\\n                        </li>\\r\\n                        {% else %}\\r\\n                        <li><a href=\\\"{{ obj.item.path }}\\\">{{ obj.item.title }}</a></li>\\r\\n                        {% endif %}\\r\\n                        \\r\\n                        {% endfor %}\\r\\n                        \\r\\n                        </ul>\\r\\n                        {% endcache %}\\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        {% cache 86400 'header-menu-right' %} \\r\\n                        {% get_link_descendants \\\"header-menu-right\\\" as headerlinks %}\\r\\n                        <ul class=\\\"nav navbar-nav debug-item  {{headerlinks.item.css_classes}}\\\" {{headerlinks.item|edit_attribute}}>\\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        {% for obj in headerlinks.children %}\\r\\n                        \\r\\n                        {% if obj.children.children|length > 0 %}\\r\\n                        <li class=\\\"dropdown\\\">\\r\\n                            <a href=\\\"{{ obj.item.path }}\\\" class=\\\"dropdown-toggle\\\" data-toggle=\\\"dropdown\\\" role=\\\"button\\\" aria-expanded=\\\"false\\\">{{ obj.item.title }} <span class=\\\"caret\\\"></span></a>\\r\\n                            \\r\\n                            <ul class=\\\"dropdown-menu\\\" role=\\\"menu\\\">\\r\\n                            {% for child in obj.children.children %}\\r\\n                                <li class=\\\"level-1\\\"><a href=\\\"{{ child.item.path }}\\\">{{ child.item.title }}</a></li>\\r\\n                            \\r\\n                                {% for subchild in child.children.children %}\\r\\n                                <li class=\\\"level-2\\\"><a href=\\\"{{ subchild.item.path }}\\\">{{ subchild.item.title }}</a></li>\\r\\n                                {% endfor %}\\r\\n                                \\r\\n                            {% endfor %}\\r\\n                            </ul>\\r\\n                        </li>\\r\\n                        {% else %}\\r\\n                        <li><a href=\\\"{{ obj.item.path }}\\\">{{ obj.item.title }}</a></li>\\r\\n                        {% endif %}\\r\\n                        \\r\\n                        {% endfor %}\\r\\n                        \\r\\n                        <li>\\r\\n                            <a href=\\\"/forms/contact-me/\\\" class=\\\"contact-me\\\">{% trans \\\"Contact Me\\\" %}</a>\\r\\n                            <div class=\\\"load-later\\\" data-url=\\\"/forms/contact-me/ #main .container\\\"></div>\\r\\n                        \\r\\n                        </li>\\r\\n                        \\r\\n                        </ul>\\r\\n                        {% endcache %}\\r\\n                        \\r\\n                    </div>\\r\\n                </div>\\r\\n              </div>\\r\\n            </nav>          \\r\\n        </header>\\r\\n        \\r\\n        {% block below_header %}{% endblock %}\\r\\n\\r\\n        {% block main %}\\r\\n        <div id=\\\"main\\\"  >\\r\\n            <div class=\\\"container\\\">\\r\\n                \\r\\n                \\r\\n                {% block social_sharing %}\\r\\n                    {% include 'partials-social-sharing' %}\\r\\n                {% endblock %}\\r\\n                \\r\\n                {% block breadcrumbs %}\\r\\n                {% with hierarchy=object.get_hierarchy %}\\r\\n                {% if hierarchy|length > 2 %}\\r\\n                    <ol class=\\\"breadcrumb\\\">\\r\\n                    {% for page in hierarchy %}\\r\\n                        {% if forloop.first %}\\r\\n                        \\r\\n                        {% elif forloop.last %}\\r\\n                        <li {% if forloop.last %}class=\\\"last\\\"{% endif %}>{{page.title}}</li>\\r\\n                        {% else %}\\r\\n                        <li {% if forloop.last %}class=\\\"last\\\"{% endif %}><a href=\\\"{{page.get_absolute_url}}\\\">{{page.title}}</a></li>\\r\\n                        {% endif %}\\r\\n                    {% endfor %}\\r\\n                    </ol>\\r\\n                {% endif %}\\r\\n                {% endwith %}\\r\\n                {% endblock %}\\r\\n                \\r\\n                {% if messages %}\\r\\n                <div class=\\\"messages\\\">\\r\\n                {% block messages %}\\r\\n                    <ul>\\r\\n                        {% for message in messages %}\\r\\n                        <li{% if message.tags %} class=\\\"{{ message.tags }}\\\"{% endif %}>{{ message }}</li>\\r\\n                        {% endfor %}\\r\\n                    </ul>\\r\\n                {% endblock %}\\r\\n                </div>\\r\\n                {% endif %}\\r\\n                \\r\\n                {% block pagetitle %}{% if object %}<h1 itemprop=\\\"name\\\">{{ object.title }}</h1>{% endif %}{% endblock %}\\r\\n                \\r\\n                {% block content %}{% endblock %}\\r\\n            </div>               \\r\\n        </div>\\r\\n        {% endblock %}\\r\\n\\r\\n        {% include 'partials-footer' %}\\r\\n        \\r\\n        <!-- jQuery, Libs, Custom JS -->\\r\\n        <script src=\\\"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\\\"></script>\\r\\n        \\r\\n        <!-- Comes after chrisharburg.core.min.js because it requires jquery -->\\r\\n        <!--[if lte IE 9]>\\r\\n            <script src=\\\"{% static 'proxydoodle/js/vendor/jquery.placeholder.min.js' %}\\\" ></script>\\r\\n        <![endif]-->\\r\\n        \\r\\n        <!-- Jquery other libs, and custom jQuery -->\\r\\n        \\r\\n\\r\\n        {% if not donottrack %}\\r\\n            <script>\\r\\n              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\\r\\n              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\\r\\n              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\\r\\n              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\\r\\n            \\r\\n              ga('create', 'UA-66086259-1', 'auto');\\r\\n              ga('send', 'pageview');\\r\\n            \\r\\n            </script>\\r\\n        {% endif %}\\r\\n\\r\\n        {% block js %}{% endblock %}\\r\\n\\r\\n    </body>\\r\\n</html>\\r\\n\", \"created_by\": 1, \"version\": 1, \"created_date\": \"2015-08-10T02:51:37.626Z\", \"slug\": \"base_template\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 7}]",
+        "revision": 13
+    },
+    "model": "reversion.version",
+    "pk": 13
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Page > Base",
+        "object_id": "8",
+        "content_type": 18,
+        "object_id_int": 8,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:52:35.328Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Page > Base\", \"custom_template\": \"{% extends 'base-template' %}\\r\\n\\r\\n\\r\\n{% block breadcrumbs %}\\r\\n\\r\\n{% comment %}\\r\\n{% with hierarchy=object.get_hierarchy %}\\r\\n{% if hierarchy|length > 2 %}\\r\\n    <ol class=\\\"breadcrumb\\\">\\r\\n    {% for page in hierarchy %}\\r\\n        {% if forloop.first %}\\r\\n        \\r\\n        {% elif forloop.last %}\\r\\n        <li class=\\\"last\\\">{{page.title}}</li>\\r\\n        {% else %}\\r\\n        <li><a href=\\\"{{page.get_absolute_url}}\\\" {% if forloop.last %}class=\\\"last\\\"{% endif %}>{{page.title}}</a></li>\\r\\n        {% endif %}\\r\\n    {% endfor %}\\r\\n    </ol>\\r\\n{% endif %}\\r\\n{% endwith %}\\r\\n{% endcomment %}\\r\\n\\r\\n{% endblock %}\\r\\n\\r\\n\\r\\n{% block title %}{{object.title}}{% endblock %}\\r\\n\\r\\n{% block content %}\\r\\n\\r\\n<div class=\\\"bodytext\\\">\\r\\n    {% if object.synopsis %}<h3>{{object.synopsis|safe}}</h3>{% endif %}\\r\\n    \\r\\n    {{object.content|safe}}\\r\\n    \\r\\n    {% for block in page_blocks %}\\r\\n    <section class=\\\"page-block {{block.slug}}\\\">\\r\\n    {{block.content|safe}}\\r\\n    </section>\\r\\n    {% endfor %}\\r\\n</div>\\r\\n\\r\\n{% endblock %}\", \"created_by\": 1, \"version\": 1, \"created_date\": \"2015-08-10T02:52:35.328Z\", \"slug\": \"page_base\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 8}]",
+        "revision": 14
+    },
+    "model": "reversion.version",
+    "pk": 14
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "content_type": 18,
+        "object_id_int": 1,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:53:43.407Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Homepage\", \"custom_template\": \"{% extends 'base-template' %}\", \"created_by\": 1, \"version\": 4, \"created_date\": \"2015-08-10T01:53:10.369Z\", \"slug\": \"homepage\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 1}]",
+        "revision": 15
+    },
+    "model": "reversion.version",
+    "pk": 15
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "content_type": 18,
+        "object_id_int": 1,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:54:06.304Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Homepage\", \"custom_template\": \"{% extends 'page_base' %}\", \"created_by\": 1, \"version\": 5, \"created_date\": \"2015-08-10T01:53:10.369Z\", \"slug\": \"homepage\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 1}]",
+        "revision": 16
+    },
+    "model": "reversion.version",
+    "pk": 16
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Page > Base",
+        "object_id": "8",
+        "content_type": 18,
+        "object_id_int": 8,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:54:29.570Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Page > Base\", \"custom_template\": \"{% extends 'base_template' %}\\r\\n\\r\\n\\r\\n{% block breadcrumbs %}\\r\\n\\r\\n{% comment %}\\r\\n{% with hierarchy=object.get_hierarchy %}\\r\\n{% if hierarchy|length > 2 %}\\r\\n    <ol class=\\\"breadcrumb\\\">\\r\\n    {% for page in hierarchy %}\\r\\n        {% if forloop.first %}\\r\\n        \\r\\n        {% elif forloop.last %}\\r\\n        <li class=\\\"last\\\">{{page.title}}</li>\\r\\n        {% else %}\\r\\n        <li><a href=\\\"{{page.get_absolute_url}}\\\" {% if forloop.last %}class=\\\"last\\\"{% endif %}>{{page.title}}</a></li>\\r\\n        {% endif %}\\r\\n    {% endfor %}\\r\\n    </ol>\\r\\n{% endif %}\\r\\n{% endwith %}\\r\\n{% endcomment %}\\r\\n\\r\\n{% endblock %}\\r\\n\\r\\n\\r\\n{% block title %}{{object.title}}{% endblock %}\\r\\n\\r\\n{% block content %}\\r\\n\\r\\n<div class=\\\"bodytext\\\">\\r\\n    {% if object.synopsis %}<h3>{{object.synopsis|safe}}</h3>{% endif %}\\r\\n    \\r\\n    {{object.content|safe}}\\r\\n    \\r\\n    {% for block in page_blocks %}\\r\\n    <section class=\\\"page-block {{block.slug}}\\\">\\r\\n    {{block.content|safe}}\\r\\n    </section>\\r\\n    {% endfor %}\\r\\n</div>\\r\\n\\r\\n{% endblock %}\", \"created_by\": 1, \"version\": 2, \"created_date\": \"2015-08-10T02:52:35.328Z\", \"slug\": \"page_base\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 8}]",
+        "revision": 17
+    },
+    "model": "reversion.version",
+    "pk": 17
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Base Template",
+        "object_id": "7",
+        "content_type": 18,
+        "object_id_int": 7,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T02:55:17.805Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Base Template\", \"custom_template\": \"{% load staticfiles i18n helpful_tags cache core_tags %}\\r\\n<!DOCTYPE html>\\r\\n<!--[if lt IE 7]> <html class=\\\"no-js ie lt-ie7 lt-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if IE 7]>    <html class=\\\"no-js ie ie7 lt-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if IE 8]>    <html class=\\\"no-js ie ie8 lt-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if IE 9]>    <html class=\\\"no-js ie ie9 gte-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if gt IE 9]>    <html class=\\\"no-js gte-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if !IE ]>    <html class=\\\"no-js gte-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<html class=\\\"no-js gte-ie9\\\" lang=\\\"en\\\" >\\r\\n    <head>\\r\\n        <meta charset=\\\"utf-8\\\" />\\r\\n        <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\" />\\r\\n        <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1\\\" />\\r\\n\\r\\n        <title>{% block title %}{% if object %}{{ object.title }}{% endif %}{% endblock %}{% block titlediv %} | {% endblock %}{{ SITE_TITLE }}</title>\\r\\n        <meta name=\\\"description\\\" content=\\\"{% block description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta name=\\\"keywords\\\" content=\\\"{% block keywords %}{% if object.page_meta_keywords %}{{object.page_meta_keywords}}{% else %}Wedding, event, photography{% endif %}{% endblock %}\\\" />\\r\\n\\r\\n        <!-- Facebook Open Graph -->\\r\\n        <meta property=\\\"og:title\\\" content=\\\"{% block og:title %}{{ SITE_TITLE }}{% endblock %}\\\" />\\r\\n        <meta property=\\\"og:description\\\" content=\\\"{% block og:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta property=\\\"og:type\\\" content=\\\"{% block og:type %}article{% endblock %}\\\" />\\r\\n        <meta property=\\\"og:url\\\" content=\\\"{{ request.build_absolute_uri }}\\\" />\\r\\n        <meta property=\\\"og:site_name\\\" content=\\\"{{ SITE_TITLE }}\\\" />\\r\\n        <meta property=\\\"og:image\\\" content=\\\"{% block og:image %}{% static 'social-icon.png' %}{% endblock %}\\\" />\\r\\n\\r\\n        <!-- Twitter Card -->\\r\\n        <meta name=\\\"twitter:card\\\" content=\\\"summary\\\" />\\r\\n        <meta name=\\\"twitter:site\\\" content=\\\"{% block twitter:site %}@{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:title\\\" content=\\\"{% block twitter:title %}{{ SITE_TITLE }}{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:description\\\" content=\\\"{% block twitter:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:url\\\" content=\\\"{{ request.build_absolute_uri }}\\\" />\\r\\n        <meta name=\\\"twitter:image:src\\\" content=\\\"{% block twitter:image %}{% static 'social-icon.png' %}{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:creator\\\" content=\\\"{% block twitter:creator %}@{% endblock %}\\\" />\\r\\n        \\r\\n        <!-- Schema.org markup for Google+ --> \\r\\n        <meta itemprop=\\\"name\\\" content=\\\"{% block google:title %}{{ SITE_TITLE }}{% endblock %}\\\" />\\r\\n        <meta itemprop=\\\"description\\\" content=\\\"{% block google:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta itemprop=\\\"image\\\" content=\\\"{% block google:image %}{% static 'social-icon.png' %}{% endblock %}\\\" />\\r\\n\\r\\n        <link rel=\\\"canonical\\\" href=\\\"{% block canonical_url %}{% get_canonical_url as canonical_url %}{{canonical_url}}{% endblock %}\\\" />\\r\\n\\r\\n        <!-- Icons -->\\r\\n        <!-- See http://realfavicongenerator.net/ for generating favicon variants -->\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon.ico?v=1\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/apple-touch-icon-57x57.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/apple-touch-icon-60x60.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/apple-touch-icon-72x72.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/apple-touch-icon-76x76.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/apple-touch-icon-114x114.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/apple-touch-icon-120x120.png\\\" />      \\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/apple-touch-icon-144x144.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/apple-touch-icon-152x152.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/apple-touch-icon-180x180.png\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-16x16.png\\\" sizes=\\\"16x16\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-32x32.png\\\" sizes=\\\"32x32\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-96x96.png\\\" sizes=\\\"96x96\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-160x160.png\\\" sizes=\\\"160x160\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-192x192.png\\\" sizes=\\\"192x192\\\" />\\r\\n        <meta name=\\\"msapplication-TileColor\\\" content=\\\"#00a300\\\" />\\r\\n        <meta name=\\\"msapplication-TileImage\\\" content=\\\"/mstile-144x144.png\\\" />\\r\\n\\r\\n        <!-- WEBMASTER VERIFICATION -->\\r\\n        <meta name=\\\"google-site-verification\\\" content=\\\"_Va3UWlvCRY_SF6z7GhcekNLz7nekFlim3f-YAVHUH4\\\" />\\r\\n\\r\\n        <!-- FONT AWESOME -->\\r\\n        <link href=\\\"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\\\" rel=\\\"stylesheet\\\"/>\\r\\n    \\r\\n        <!-- FONTS -->\\r\\n        <link href='//fonts.googleapis.com/css?family=Quicksand:400,700|Great+Vibes|Merriweather:400,700' rel='stylesheet' type='text/css'>\\r\\n        \\r\\n        \\r\\n\\r\\n        {% block css %}{% endblock %}     \\r\\n        \\r\\n        \\r\\n        <!--[if lt IE 9]>\\r\\n            \\r\\n            <script src=\\\"//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js\\\"></script>\\r\\n            <script src=\\\"//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js\\\"></script>\\r\\n            <script src=\\\"//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js\\\"></script>\\r\\n            \\r\\n        <![endif]-->\\r\\n\\r\\n        {% include 'partials_modernizr' %}\\r\\n        \\r\\n    </head>\\r\\n    <body class=\\\"{% block bodyclass %}{% endblock %} {% if object %}page-{{object.slug}}{% endif %}\\\" data-site-id=\\\"{{SITE_ID}}\\\" {% block bodydata %}{% endblock %} {% block bodyscope %}itemscope itemType=\\\"https://schema.org/WebPage\\\"{% endblock %}>\\r\\n        \\r\\n        <header id=\\\"header\\\">            \\r\\n    \\r\\n            <nav class=\\\"navbar navbar-fixed-top\\\">\\r\\n                {% include 'partials_debug' %}\\r\\n              <div class=\\\"container menu\\\">\\r\\n                \\r\\n                <div class=\\\"navbar-header\\\">\\r\\n                    <button type=\\\"button\\\" class=\\\"navbar-toggle collapsed\\\" data-toggle=\\\"collapse\\\" data-target=\\\"#navbar\\\" aria-expanded=\\\"false\\\" aria-controls=\\\"navbar\\\">\\r\\n                    {{ SITE_TITLE }}\\r\\n                    </button>            \\r\\n                </div>\\r\\n                \\r\\n                <div>\\r\\n                   <div id=\\\"navbar\\\" class=\\\"navbar-collapse collapse\\\"> \\r\\n                   \\r\\n                        <a class=\\\"navbar-brand\\\" href=\\\"/\\\">\\r\\n                          {% block site_header_title %}\\r\\n                          <span>Home</span>\\r\\n                          {% endblock %}\\r\\n                        </a>\\r\\n                        \\r\\n                        {% cache 86400 'header-menu-left' %} \\r\\n                        {% get_link_descendants \\\"header-menu-left\\\" as headerlinks %}\\r\\n                        <ul class=\\\"nav navbar-nav debug-item {{headerlinks.item.css_classes}}\\\" {{headerlinks.item|edit_attribute}}>\\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        {% for obj in headerlinks.children %}\\r\\n                        \\r\\n                        {% if obj.children.children|length > 0 %}\\r\\n                        <li class=\\\"dropdown\\\">\\r\\n                            <a href=\\\"{{ obj.item.path }}\\\" class=\\\"dropdown-toggle\\\" data-toggle=\\\"dropdown\\\" role=\\\"button\\\" aria-expanded=\\\"false\\\">{{ obj.item.title }} <span class=\\\"caret\\\"></span></a>\\r\\n                            \\r\\n                            <ul class=\\\"dropdown-menu\\\" role=\\\"menu\\\">\\r\\n                            {% for child in obj.children.children %}\\r\\n                                <li class=\\\"level-1\\\"><a href=\\\"{{ child.item.path }}\\\">{{ child.item.title }}</a></li>\\r\\n                            \\r\\n                                {% for subchild in child.children.children %}\\r\\n                                <li class=\\\"level-2\\\"><a href=\\\"{{ subchild.item.path }}\\\">{{ subchild.item.title }}</a></li>\\r\\n                                {% endfor %}\\r\\n                                \\r\\n                            {% endfor %}\\r\\n                            </ul>\\r\\n                        </li>\\r\\n                        {% else %}\\r\\n                        <li><a href=\\\"{{ obj.item.path }}\\\">{{ obj.item.title }}</a></li>\\r\\n                        {% endif %}\\r\\n                        \\r\\n                        {% endfor %}\\r\\n                        \\r\\n                        </ul>\\r\\n                        {% endcache %}\\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        {% cache 86400 'header-menu-right' %} \\r\\n                        {% get_link_descendants \\\"header-menu-right\\\" as headerlinks %}\\r\\n                        <ul class=\\\"nav navbar-nav debug-item  {{headerlinks.item.css_classes}}\\\" {{headerlinks.item|edit_attribute}}>\\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        {% for obj in headerlinks.children %}\\r\\n                        \\r\\n                        {% if obj.children.children|length > 0 %}\\r\\n                        <li class=\\\"dropdown\\\">\\r\\n                            <a href=\\\"{{ obj.item.path }}\\\" class=\\\"dropdown-toggle\\\" data-toggle=\\\"dropdown\\\" role=\\\"button\\\" aria-expanded=\\\"false\\\">{{ obj.item.title }} <span class=\\\"caret\\\"></span></a>\\r\\n                            \\r\\n                            <ul class=\\\"dropdown-menu\\\" role=\\\"menu\\\">\\r\\n                            {% for child in obj.children.children %}\\r\\n                                <li class=\\\"level-1\\\"><a href=\\\"{{ child.item.path }}\\\">{{ child.item.title }}</a></li>\\r\\n                            \\r\\n                                {% for subchild in child.children.children %}\\r\\n                                <li class=\\\"level-2\\\"><a href=\\\"{{ subchild.item.path }}\\\">{{ subchild.item.title }}</a></li>\\r\\n                                {% endfor %}\\r\\n                                \\r\\n                            {% endfor %}\\r\\n                            </ul>\\r\\n                        </li>\\r\\n                        {% else %}\\r\\n                        <li><a href=\\\"{{ obj.item.path }}\\\">{{ obj.item.title }}</a></li>\\r\\n                        {% endif %}\\r\\n                        \\r\\n                        {% endfor %}\\r\\n                        \\r\\n                        <li>\\r\\n                            <a href=\\\"/forms/contact-me/\\\" class=\\\"contact-me\\\">{% trans \\\"Contact Me\\\" %}</a>\\r\\n                            <div class=\\\"load-later\\\" data-url=\\\"/forms/contact-me/ #main .container\\\"></div>\\r\\n                        \\r\\n                        </li>\\r\\n                        \\r\\n                        </ul>\\r\\n                        {% endcache %}\\r\\n                        \\r\\n                    </div>\\r\\n                </div>\\r\\n              </div>\\r\\n            </nav>          \\r\\n        </header>\\r\\n        \\r\\n        {% block below_header %}{% endblock %}\\r\\n\\r\\n        {% block main %}\\r\\n        <div id=\\\"main\\\"  >\\r\\n            <div class=\\\"container\\\">\\r\\n                \\r\\n                \\r\\n                {% block social_sharing %}\\r\\n                    {% include 'partials_social_sharing' %}\\r\\n                {% endblock %}\\r\\n                \\r\\n                {% block breadcrumbs %}\\r\\n                {% with hierarchy=object.get_hierarchy %}\\r\\n                {% if hierarchy|length > 2 %}\\r\\n                    <ol class=\\\"breadcrumb\\\">\\r\\n                    {% for page in hierarchy %}\\r\\n                        {% if forloop.first %}\\r\\n                        \\r\\n                        {% elif forloop.last %}\\r\\n                        <li {% if forloop.last %}class=\\\"last\\\"{% endif %}>{{page.title}}</li>\\r\\n                        {% else %}\\r\\n                        <li {% if forloop.last %}class=\\\"last\\\"{% endif %}><a href=\\\"{{page.get_absolute_url}}\\\">{{page.title}}</a></li>\\r\\n                        {% endif %}\\r\\n                    {% endfor %}\\r\\n                    </ol>\\r\\n                {% endif %}\\r\\n                {% endwith %}\\r\\n                {% endblock %}\\r\\n                \\r\\n                {% if messages %}\\r\\n                <div class=\\\"messages\\\">\\r\\n                {% block messages %}\\r\\n                    <ul>\\r\\n                        {% for message in messages %}\\r\\n                        <li{% if message.tags %} class=\\\"{{ message.tags }}\\\"{% endif %}>{{ message }}</li>\\r\\n                        {% endfor %}\\r\\n                    </ul>\\r\\n                {% endblock %}\\r\\n                </div>\\r\\n                {% endif %}\\r\\n                \\r\\n                {% block pagetitle %}{% if object %}<h1 itemprop=\\\"name\\\">{{ object.title }}</h1>{% endif %}{% endblock %}\\r\\n                \\r\\n                {% block content %}{% endblock %}\\r\\n            </div>               \\r\\n        </div>\\r\\n        {% endblock %}\\r\\n\\r\\n        {% include 'partials_footer' %}\\r\\n        \\r\\n        <!-- jQuery, Libs, Custom JS -->\\r\\n        <script src=\\\"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\\\"></script>\\r\\n        \\r\\n        <!-- Comes after chrisharburg.core.min.js because it requires jquery -->\\r\\n        <!--[if lte IE 9]>\\r\\n            <script src=\\\"{% static 'proxydoodle/js/vendor/jquery.placeholder.min.js' %}\\\" ></script>\\r\\n        <![endif]-->\\r\\n        \\r\\n        <!-- Jquery other libs, and custom jQuery -->\\r\\n        \\r\\n\\r\\n        {% if not donottrack %}\\r\\n            <script>\\r\\n              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\\r\\n              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\\r\\n              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\\r\\n              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\\r\\n            \\r\\n              ga('create', 'UA-66086259-1', 'auto');\\r\\n              ga('send', 'pageview');\\r\\n            \\r\\n            </script>\\r\\n        {% endif %}\\r\\n\\r\\n        {% block js %}{% endblock %}\\r\\n\\r\\n    </body>\\r\\n</html>\\r\\n\", \"created_by\": 1, \"version\": 2, \"created_date\": \"2015-08-10T02:51:37.626Z\", \"slug\": \"base_template\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 7}]",
+        "revision": 18
+    },
+    "model": "reversion.version",
+    "pk": 18
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Partials > Footer",
+        "object_id": "4",
+        "content_type": 18,
+        "object_id_int": 4,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T03:07:14.924Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Partials > Footer\", \"custom_template\": \"{% load staticfiles i18n helpful_tags core_tags cache %}\\r\\n<footer id=\\\"footer\\\">\\r\\n    <div class=\\\"container\\\" itemscope itemtype=\\\"http://schema.org/LocalBusiness\\\">\\r\\n        \\r\\n        {% cache 86400 'site-menu-footer' %}  \\r\\n        {% get_link_descendants \\\"footer-menu\\\" as footerlinks %}\\r\\n        <ul class=\\\"footer-links debug-item {{footerlinks.css_classes}}\\\" {{footerlinks.item|edit_attribute}} >\\r\\n            <li>&copy; {% now \\\"Y\\\" %} <span itemprop=\\\"name\\\">ProxyDoodle</span></li>\\r\\n            {% for obj in footerlinks.children %}\\r\\n            <li class=\\\"{{obj.item.css_classes}}\\\"><a href=\\\"{{ obj.item.path }}\\\"><span {{obj.item.extra_attributes|safe}}>{{ obj.item.title }}</span></a></li>\\r\\n            {% endfor %}\\r\\n        </ul>\\r\\n        {% endcache %}\\r\\n        \\r\\n        {% cache 86400 'site-social-links-footer' %}  \\r\\n        {% get_link_descendants \\\"social-media-links\\\" as sociallinks %}\\r\\n        <ul class=\\\"footer-social-links debug-item  {{footerlinks.css_classes}}\\\" {{sociallinks.item|edit_attribute}} >\\r\\n            {% for obj in sociallinks.children %}\\r\\n        \\t<li class=\\\"{{obj.item.css_classes}}\\\"><a href=\\\"{{ obj.item.path }}\\\" target=\\\"_blank\\\"  {{obj.item.extra_attributes|safe}} ><i class=\\\"fa fa-{{obj.item.slug}}\\\"></i></a></li>\\r\\n            {% endfor %}\\r\\n        </ul>\\r\\n        {% endcache %}\\r\\n        \\r\\n    </div>\\r\\n</footer>\", \"created_by\": 1, \"version\": 3, \"created_date\": \"2015-08-10T02:49:55.575Z\", \"slug\": \"partials_footer\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 4}]",
+        "revision": 19
+    },
+    "model": "reversion.version",
+    "pk": 19
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Helpful Links",
+        "object_id": "1",
+        "content_type": 27,
+        "object_id_int": 1,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T03:08:15.495Z\", \"temporary_redirect\": \"\", \"permanent_redirect\": \"\", \"modified_by\": 1, \"uuid\": \"core.AdminSidebar.0ae6c53d-3f0d-11e5-81ad-80e6501e3cea\", \"admin_note\": \"\", \"title\": \"Helpful Links\", \"hierarchy\": \"/0000/helpful-links/\", \"path_generated\": \"/helpful-links/\", \"created_by\": 1, \"order\": 0, \"version\": 1, \"path_override\": null, \"template\": null, \"created_date\": \"2015-08-10T03:08:15.495Z\", \"path\": \"/helpful-links/\", \"slug\": \"helpful-links\"}, \"model\": \"core.adminsidebar\", \"pk\": 1}]",
+        "revision": 20
+    },
+    "model": "reversion.version",
+    "pk": 20
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Clear Cache",
+        "object_id": "1",
+        "content_type": 26,
+        "object_id_int": 1,
+        "serialized_data": "[{\"fields\": {\"parent\": 1, \"modified_date\": \"2015-08-10T03:08:15.512Z\", \"temporary_redirect\": \"\", \"permanent_redirect\": \"\", \"modified_by\": null, \"uuid\": \"core.AdminLink.0aebb1b5-3f0d-11e5-939f-80e6501e3cea\", \"admin_note\": null, \"title\": \"Clear Cache\", \"hierarchy\": \"/0000/helpful-links/0001/clear-cache/\", \"path_generated\": \"/helpful-links/clear-cache/\", \"created_by\": null, \"order\": 1, \"url\": \"/admin/utils/cache/clear/\", \"version\": 1, \"path_override\": null, \"template\": null, \"created_date\": \"2015-08-10T03:08:15.512Z\", \"path\": \"/helpful-links/clear-cache/\", \"slug\": \"clear-cache\"}, \"model\": \"core.adminlink\", \"pk\": 1}]",
+        "revision": 20
+    },
+    "model": "reversion.version",
+    "pk": 21
+},
+{
+    "fields": {
+        "format": "json",
+        "object_repr": "Base Template",
+        "object_id": "7",
+        "content_type": 18,
+        "object_id_int": 7,
+        "serialized_data": "[{\"fields\": {\"modified_date\": \"2015-08-10T03:09:25.641Z\", \"modified_by\": 1, \"admin_note\": \"\", \"title\": \"Base Template\", \"custom_template\": \"{% load staticfiles i18n helpful_tags cache core_tags %}\\r\\n<!DOCTYPE html>\\r\\n<!--[if lt IE 7]> <html class=\\\"no-js ie lt-ie7 lt-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if IE 7]>    <html class=\\\"no-js ie ie7 lt-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if IE 8]>    <html class=\\\"no-js ie ie8 lt-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if IE 9]>    <html class=\\\"no-js ie ie9 gte-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if gt IE 9]>    <html class=\\\"no-js gte-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<!--[if !IE ]>    <html class=\\\"no-js gte-ie9\\\" lang=\\\"en\\\"> <![endif]-->\\r\\n<html class=\\\"no-js gte-ie9\\\" lang=\\\"en\\\" >\\r\\n    <head>\\r\\n        <meta charset=\\\"utf-8\\\" />\\r\\n        <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\" />\\r\\n        <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1\\\" />\\r\\n\\r\\n        <title>{% block title %}{% if object %}{{ object.title }}{% endif %}{% endblock %}{% block titlediv %} | {% endblock %}{{ SITE_TITLE }}</title>\\r\\n        <meta name=\\\"description\\\" content=\\\"{% block description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta name=\\\"keywords\\\" content=\\\"{% block keywords %}{% if object.page_meta_keywords %}{{object.page_meta_keywords}}{% else %}Wedding, event, photography{% endif %}{% endblock %}\\\" />\\r\\n\\r\\n        <!-- Facebook Open Graph -->\\r\\n        <meta property=\\\"og:title\\\" content=\\\"{% block og:title %}{{ SITE_TITLE }}{% endblock %}\\\" />\\r\\n        <meta property=\\\"og:description\\\" content=\\\"{% block og:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta property=\\\"og:type\\\" content=\\\"{% block og:type %}article{% endblock %}\\\" />\\r\\n        <meta property=\\\"og:url\\\" content=\\\"{{ request.build_absolute_uri }}\\\" />\\r\\n        <meta property=\\\"og:site_name\\\" content=\\\"{{ SITE_TITLE }}\\\" />\\r\\n        <meta property=\\\"og:image\\\" content=\\\"{% block og:image %}{% static 'social-icon.png' %}{% endblock %}\\\" />\\r\\n\\r\\n        <!-- Twitter Card -->\\r\\n        <meta name=\\\"twitter:card\\\" content=\\\"summary\\\" />\\r\\n        <meta name=\\\"twitter:site\\\" content=\\\"{% block twitter:site %}@{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:title\\\" content=\\\"{% block twitter:title %}{{ SITE_TITLE }}{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:description\\\" content=\\\"{% block twitter:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:url\\\" content=\\\"{{ request.build_absolute_uri }}\\\" />\\r\\n        <meta name=\\\"twitter:image:src\\\" content=\\\"{% block twitter:image %}{% static 'social-icon.png' %}{% endblock %}\\\" />\\r\\n        <meta name=\\\"twitter:creator\\\" content=\\\"{% block twitter:creator %}@{% endblock %}\\\" />\\r\\n        \\r\\n        <!-- Schema.org markup for Google+ --> \\r\\n        <meta itemprop=\\\"name\\\" content=\\\"{% block google:title %}{{ SITE_TITLE }}{% endblock %}\\\" />\\r\\n        <meta itemprop=\\\"description\\\" content=\\\"{% block google:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\\\" />\\r\\n        <meta itemprop=\\\"image\\\" content=\\\"{% block google:image %}{% static 'social-icon.png' %}{% endblock %}\\\" />\\r\\n\\r\\n        <link rel=\\\"canonical\\\" href=\\\"{% block canonical_url %}{% get_canonical_url as canonical_url %}{{canonical_url}}{% endblock %}\\\" />\\r\\n\\r\\n        <!-- Icons -->\\r\\n        <!-- See http://realfavicongenerator.net/ for generating favicon variants -->\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon.ico?v=1\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"57x57\\\" href=\\\"/apple-touch-icon-57x57.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"60x60\\\" href=\\\"/apple-touch-icon-60x60.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"72x72\\\" href=\\\"/apple-touch-icon-72x72.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"76x76\\\" href=\\\"/apple-touch-icon-76x76.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"114x114\\\" href=\\\"/apple-touch-icon-114x114.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"120x120\\\" href=\\\"/apple-touch-icon-120x120.png\\\" />      \\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"144x144\\\" href=\\\"/apple-touch-icon-144x144.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"152x152\\\" href=\\\"/apple-touch-icon-152x152.png\\\" />\\r\\n        <link rel=\\\"apple-touch-icon\\\" sizes=\\\"180x180\\\" href=\\\"/apple-touch-icon-180x180.png\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-16x16.png\\\" sizes=\\\"16x16\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-32x32.png\\\" sizes=\\\"32x32\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-96x96.png\\\" sizes=\\\"96x96\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-160x160.png\\\" sizes=\\\"160x160\\\" />\\r\\n        <link rel=\\\"icon\\\" type=\\\"image/png\\\" href=\\\"/favicon-192x192.png\\\" sizes=\\\"192x192\\\" />\\r\\n        <meta name=\\\"msapplication-TileColor\\\" content=\\\"#00a300\\\" />\\r\\n        <meta name=\\\"msapplication-TileImage\\\" content=\\\"/mstile-144x144.png\\\" />\\r\\n\\r\\n        <!-- WEBMASTER VERIFICATION -->\\r\\n        <meta name=\\\"google-site-verification\\\" content=\\\"_Va3UWlvCRY_SF6z7GhcekNLz7nekFlim3f-YAVHUH4\\\" />\\r\\n\\r\\n        <!-- FONT AWESOME -->\\r\\n        <link href=\\\"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\\\" rel=\\\"stylesheet\\\"/>\\r\\n    \\r\\n        <!-- FONTS -->\\r\\n        <link href='//fonts.googleapis.com/css?family=Quicksand:400,700|Great+Vibes|Merriweather:400,700' rel='stylesheet' type='text/css'>\\r\\n        \\r\\n        \\r\\n\\r\\n        {% block css %}{% endblock %}     \\r\\n        \\r\\n        \\r\\n        <!--[if lt IE 9]>\\r\\n            \\r\\n            <script src=\\\"//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js\\\"></script>\\r\\n            <script src=\\\"//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js\\\"></script>\\r\\n            <script src=\\\"//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js\\\"></script>\\r\\n            \\r\\n        <![endif]-->\\r\\n\\r\\n        {% include 'partials_modernizr' %}\\r\\n        \\r\\n    </head>\\r\\n    <body class=\\\"{% block bodyclass %}{% endblock %} {% if object %}page-{{object.slug}}{% endif %}\\\" data-site-id=\\\"{{SITE_ID}}\\\" {% block bodydata %}{% endblock %} {% block bodyscope %}itemscope itemType=\\\"https://schema.org/WebPage\\\"{% endblock %}>\\r\\n        \\r\\n        <header id=\\\"header\\\">            \\r\\n    \\r\\n            <nav class=\\\"navbar navbar-fixed-top\\\">\\r\\n                {% include 'partials_debug' %}\\r\\n              <div class=\\\"container menu\\\">\\r\\n                \\r\\n                <div class=\\\"navbar-header\\\">\\r\\n                    <button type=\\\"button\\\" class=\\\"navbar-toggle collapsed\\\" data-toggle=\\\"collapse\\\" data-target=\\\"#navbar\\\" aria-expanded=\\\"false\\\" aria-controls=\\\"navbar\\\">\\r\\n                    {{ SITE_TITLE }}\\r\\n                    </button>            \\r\\n                </div>\\r\\n                \\r\\n                <div>\\r\\n                   <div id=\\\"navbar\\\" class=\\\"navbar-collapse collapse\\\"> \\r\\n                   \\r\\n                        <a class=\\\"navbar-brand\\\" href=\\\"/\\\">\\r\\n                          {% block site_header_title %}\\r\\n                          <span>Home</span>\\r\\n                          {% endblock %}\\r\\n                        </a>\\r\\n                        \\r\\n                        {% cache 86400 'header-menu-left' %} \\r\\n                        {% get_link_descendants \\\"header-menu-left\\\" as headerlinks %}\\r\\n                        <ul class=\\\"nav navbar-nav debug-item {{headerlinks.item.css_classes}}\\\" {{headerlinks.item|edit_attribute}}>\\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        {% for obj in headerlinks.children %}\\r\\n                        \\r\\n                        {% if obj.children.children|length > 0 %}\\r\\n                        <li class=\\\"dropdown\\\">\\r\\n                            <a href=\\\"{{ obj.item.path }}\\\" class=\\\"dropdown-toggle\\\" data-toggle=\\\"dropdown\\\" role=\\\"button\\\" aria-expanded=\\\"false\\\">{{ obj.item.title }} <span class=\\\"caret\\\"></span></a>\\r\\n                            \\r\\n                            <ul class=\\\"dropdown-menu\\\" role=\\\"menu\\\">\\r\\n                            {% for child in obj.children.children %}\\r\\n                                <li class=\\\"level-1\\\"><a href=\\\"{{ child.item.path }}\\\">{{ child.item.title }}</a></li>\\r\\n                            \\r\\n                                {% for subchild in child.children.children %}\\r\\n                                <li class=\\\"level-2\\\"><a href=\\\"{{ subchild.item.path }}\\\">{{ subchild.item.title }}</a></li>\\r\\n                                {% endfor %}\\r\\n                                \\r\\n                            {% endfor %}\\r\\n                            </ul>\\r\\n                        </li>\\r\\n                        {% else %}\\r\\n                        <li><a href=\\\"{{ obj.item.path }}\\\">{{ obj.item.title }}</a></li>\\r\\n                        {% endif %}\\r\\n                        \\r\\n                        {% endfor %}\\r\\n                        \\r\\n                        </ul>\\r\\n                        {% endcache %}\\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        {% cache 86400 'header-menu-right' %} \\r\\n                        {% get_link_descendants \\\"header-menu-right\\\" as headerlinks %}\\r\\n                        <ul class=\\\"nav navbar-nav debug-item  {{headerlinks.item.css_classes}}\\\" {{headerlinks.item|edit_attribute}}>\\r\\n                        \\r\\n                        \\r\\n                        \\r\\n                        {% for obj in headerlinks.children %}\\r\\n                        \\r\\n                        {% if obj.children.children|length > 0 %}\\r\\n                        <li class=\\\"dropdown\\\">\\r\\n                            <a href=\\\"{{ obj.item.path }}\\\" class=\\\"dropdown-toggle\\\" data-toggle=\\\"dropdown\\\" role=\\\"button\\\" aria-expanded=\\\"false\\\">{{ obj.item.title }} <span class=\\\"caret\\\"></span></a>\\r\\n                            \\r\\n                            <ul class=\\\"dropdown-menu\\\" role=\\\"menu\\\">\\r\\n                            {% for child in obj.children.children %}\\r\\n                                <li class=\\\"level-1\\\"><a href=\\\"{{ child.item.path }}\\\">{{ child.item.title }}</a></li>\\r\\n                            \\r\\n                                {% for subchild in child.children.children %}\\r\\n                                <li class=\\\"level-2\\\"><a href=\\\"{{ subchild.item.path }}\\\">{{ subchild.item.title }}</a></li>\\r\\n                                {% endfor %}\\r\\n                                \\r\\n                            {% endfor %}\\r\\n                            </ul>\\r\\n                        </li>\\r\\n                        {% else %}\\r\\n                        <li><a href=\\\"{{ obj.item.path }}\\\">{{ obj.item.title }}</a></li>\\r\\n                        {% endif %}\\r\\n                        \\r\\n                        {% endfor %}\\r\\n                        \\r\\n                        </ul>\\r\\n                        {% endcache %}\\r\\n                        \\r\\n                    </div>\\r\\n                </div>\\r\\n              </div>\\r\\n            </nav>          \\r\\n        </header>\\r\\n        \\r\\n        {% block below_header %}{% endblock %}\\r\\n\\r\\n        {% block main %}\\r\\n        <div id=\\\"main\\\"  >\\r\\n            <div class=\\\"container\\\">\\r\\n                \\r\\n                \\r\\n                {% block social_sharing %}\\r\\n                    {% include 'partials_social_sharing' %}\\r\\n                {% endblock %}\\r\\n                \\r\\n                {% block breadcrumbs %}\\r\\n                {% with hierarchy=object.get_hierarchy %}\\r\\n                {% if hierarchy|length > 2 %}\\r\\n                    <ol class=\\\"breadcrumb\\\">\\r\\n                    {% for page in hierarchy %}\\r\\n                        {% if forloop.first %}\\r\\n                        \\r\\n                        {% elif forloop.last %}\\r\\n                        <li {% if forloop.last %}class=\\\"last\\\"{% endif %}>{{page.title}}</li>\\r\\n                        {% else %}\\r\\n                        <li {% if forloop.last %}class=\\\"last\\\"{% endif %}><a href=\\\"{{page.get_absolute_url}}\\\">{{page.title}}</a></li>\\r\\n                        {% endif %}\\r\\n                    {% endfor %}\\r\\n                    </ol>\\r\\n                {% endif %}\\r\\n                {% endwith %}\\r\\n                {% endblock %}\\r\\n                \\r\\n                {% if messages %}\\r\\n                <div class=\\\"messages\\\">\\r\\n                {% block messages %}\\r\\n                    <ul>\\r\\n                        {% for message in messages %}\\r\\n                        <li{% if message.tags %} class=\\\"{{ message.tags }}\\\"{% endif %}>{{ message }}</li>\\r\\n                        {% endfor %}\\r\\n                    </ul>\\r\\n                {% endblock %}\\r\\n                </div>\\r\\n                {% endif %}\\r\\n                \\r\\n                {% block pagetitle %}{% if object %}<h1 itemprop=\\\"name\\\">{{ object.title }}</h1>{% endif %}{% endblock %}\\r\\n                \\r\\n                {% block content %}{% endblock %}\\r\\n            </div>               \\r\\n        </div>\\r\\n        {% endblock %}\\r\\n\\r\\n        {% include 'partials_footer' %}\\r\\n        \\r\\n        <!-- jQuery, Libs, Custom JS -->\\r\\n        <script src=\\\"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\\\"></script>\\r\\n        \\r\\n        <!-- Comes after chrisharburg.core.min.js because it requires jquery -->\\r\\n        <!--[if lte IE 9]>\\r\\n            <script src=\\\"{% static 'proxydoodle/js/vendor/jquery.placeholder.min.js' %}\\\" ></script>\\r\\n        <![endif]-->\\r\\n        \\r\\n        <!-- Jquery other libs, and custom jQuery -->\\r\\n        \\r\\n\\r\\n        {% if not donottrack %}\\r\\n            <script>\\r\\n              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\\r\\n              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\\r\\n              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\\r\\n              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\\r\\n            \\r\\n              ga('create', 'UA-66086259-1', 'auto');\\r\\n              ga('send', 'pageview');\\r\\n            \\r\\n            </script>\\r\\n        {% endif %}\\r\\n\\r\\n        {% block js %}{% endblock %}\\r\\n\\r\\n    </body>\\r\\n</html>\\r\\n\", \"created_by\": 1, \"version\": 3, \"created_date\": \"2015-08-10T02:51:37.626Z\", \"slug\": \"base_template\", \"file_template\": null}, \"model\": \"core.template\", \"pk\": 7}]",
+        "revision": 21
+    },
+    "model": "reversion.version",
+    "pk": 22
+},
+{
+    "fields": {
+        "is_staff": true,
+        "modified_date": "2015-08-10T01:50:09.895Z",
+        "first_name": "Nina",
+        "last_name": "Pavlich",
+        "modified_by": null,
+        "groups": [],
+        "admin_note": null,
+        "image": 1,
+        "is_active": true,
+        "about": "",
+        "created_by": null,
+        "is_superuser": true,
+        "version": 4,
+        "last_login": "2015-08-10T01:48:27.980Z",
+        "date_of_birth": null,
+        "created_date": "2015-08-10T01:48:20.051Z",
+        "user_permissions": [],
+        "middle_name": "",
+        "password": "pbkdf2_sha256$20000$gUsLR9pYCYA9$/S3dpLwwBD6CoVtp/4l6JI8nsILBvN6ymVZIH1qjDUA=",
+        "email": "nina@ninalp.com",
+        "date_joined": "2015-08-10T01:48:19.946Z"
+    },
+    "model": "account.user",
+    "pk": 1
+},
+{
+    "fields": {
+        "comment": "Initial version.",
+        "date_created": "2015-08-10T01:53:10.385Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 1
+},
+{
+    "fields": {
+        "comment": "Initial version.",
+        "date_created": "2015-08-10T01:53:18.637Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 2
+},
+{
+    "fields": {
+        "comment": "Changed path_override.",
+        "date_created": "2015-08-10T01:58:39.153Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 3
+},
+{
+    "fields": {
+        "comment": "Changed custom_template.",
+        "date_created": "2015-08-10T01:59:14.968Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 4
+},
+{
+    "fields": {
+        "comment": "Changed custom_template.",
+        "date_created": "2015-08-10T01:59:31.208Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 5
+},
+{
+    "fields": {
+        "comment": "Initial version.",
+        "date_created": "2015-08-10T02:48:51.189Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 6
+},
+{
+    "fields": {
+        "comment": "Initial version.",
+        "date_created": "2015-08-10T02:49:35.347Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 7
+},
+{
+    "fields": {
+        "comment": "Initial version.",
+        "date_created": "2015-08-10T02:49:55.599Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 8
+},
+{
+    "fields": {
+        "comment": "No fields changed.",
+        "date_created": "2015-08-10T02:49:59.547Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 9
+},
+{
+    "fields": {
+        "comment": "Initial version.",
+        "date_created": "2015-08-10T02:50:13.861Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 10
+},
+{
+    "fields": {
+        "comment": "Initial version.",
+        "date_created": "2015-08-10T02:50:30.303Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 11
+},
+{
+    "fields": {
+        "comment": "No fields changed.",
+        "date_created": "2015-08-10T02:50:32.891Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 12
+},
+{
+    "fields": {
+        "comment": "Initial version.",
+        "date_created": "2015-08-10T02:51:37.640Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 13
+},
+{
+    "fields": {
+        "comment": "Initial version.",
+        "date_created": "2015-08-10T02:52:35.354Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 14
+},
+{
+    "fields": {
+        "comment": "Changed custom_template.",
+        "date_created": "2015-08-10T02:53:43.420Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 15
+},
+{
+    "fields": {
+        "comment": "Changed custom_template.",
+        "date_created": "2015-08-10T02:54:06.318Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 16
+},
+{
+    "fields": {
+        "comment": "Changed custom_template.",
+        "date_created": "2015-08-10T02:54:29.583Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 17
+},
+{
+    "fields": {
+        "comment": "Changed custom_template.",
+        "date_created": "2015-08-10T02:55:17.820Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 18
+},
+{
+    "fields": {
+        "comment": "Changed custom_template.",
+        "date_created": "2015-08-10T03:07:14.944Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 19
+},
+{
+    "fields": {
+        "comment": "Initial version.",
+        "date_created": "2015-08-10T03:08:15.536Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 20
+},
+{
+    "fields": {
+        "comment": "Changed custom_template.",
+        "date_created": "2015-08-10T03:09:25.657Z",
+        "manager_slug": "default",
+        "user": 1
+    },
+    "model": "reversion.revision",
+    "pk": 21
+},
+{
+    "fields": {
+        "permanent_redirect": "",
+        "hierarchy": "/0000/1d51bf7a1ed8d392c52ba8a7f7986a44-650x/",
+        "image": "image/1d51bf7a1ed8d392c52ba8a7f7986a44_650x.jpg",
+        "path_generated": "/1d51bf7a1ed8d392c52ba8a7f7986a44-650x/",
+        "square_crop": "60.0,0.0,529.0,529.0",
+        "width_1000_fill_crop": "None,None,None,None",
+        "alt": "",
+        "size": 135248,
+        "modified_date": "2015-08-10T01:49:57.683Z",
+        "modified_by": 1,
+        "uuid": "media.Image.1aca4094-3f02-11e5-be89-80e6501e3cea",
+        "title": "1D51Bf7A1Ed8D392C52Ba8A7F7986A44 650X",
+        "image_width": 650,
+        "created_by": 1,
+        "version": 1,
+        "path_override": null,
+        "template": null,
+        "allow_overwrite": true,
+        "admin_note": "",
+        "tags": [],
+        "display_size": "132KB",
+        "width_1200_fill_crop": "None,None,None,None",
+        "path": "/1d51bf7a1ed8d392c52ba8a7f7986a44-650x/",
+        "caption": "",
+        "slug": "1d51bf7a1ed8d392c52ba8a7f7986a44-650x",
+        "clean_filename_on_upload": true,
+        "temporary_redirect": "",
+        "use_png": false,
+        "width_1200_wide_crop": "0.0,63.0,650.0,406.0",
+        "credit": "",
+        "image_height": 530,
+        "created_date": "2015-08-10T01:49:57.683Z",
+        "order": 0
+    },
+    "model": "media.image",
+    "pk": 1
+},
+{
+    "fields": {
+        "modified_date": "2015-08-10T02:54:06.304Z",
+        "modified_by": 1,
+        "admin_note": "",
+        "title": "Homepage",
+        "custom_template": "{% extends 'page_base' %}",
+        "created_by": 1,
+        "version": 5,
+        "created_date": "2015-08-10T01:53:10.369Z",
+        "slug": "homepage",
+        "file_template": null
+    },
+    "model": "core.template",
+    "pk": 1
+},
+{
+    "fields": {
+        "modified_date": "2015-08-10T02:48:51.171Z",
+        "modified_by": 1,
+        "admin_note": "",
+        "title": "Partials > Modernizr",
+        "custom_template": "<!-- Modernizr -->\r\n<script>\r\n//INLINED FOR ENHANCED LOADING\r\n/* Modernizr 2.7.1 (Custom Build) | MIT & BSD\r\n * Build: http://modernizr.com/download/#-fontface-backgroundsize-borderimage-borderradius-boxshadow-flexbox-hsla-multiplebgs-opacity-rgba-textshadow-cssanimations-csscolumns-generatedcontent-cssgradients-cssreflections-csstransforms-csstransforms3d-csstransitions-applicationcache-canvas-canvastext-draganddrop-hashchange-history-audio-video-indexeddb-input-inputtypes-localstorage-postmessage-sessionstorage-websockets-websqldatabase-webworkers-geolocation-inlinesvg-smil-svg-svgclippaths-touch-webgl-shiv-mq-cssclasses-addtest-prefixed-teststyles-testprop-testallprops-hasevent-prefixes-domprefixes-load\r\n */\r\n;window.Modernizr=function(a,b,c){function D(a){j.cssText=a}function E(a,b){return D(n.join(a+\";\")+(b||\"\"))}function F(a,b){return typeof a===b}function G(a,b){return!!~(\"\"+a).indexOf(b)}function H(a,b){for(var d in a){var e=a[d];if(!G(e,\"-\")&&j[e]!==c)return b==\"pfx\"?e:!0}return!1}function I(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:F(f,\"function\")?f.bind(d||b):f}return!1}function J(a,b,c){var d=a.charAt(0).toUpperCase()+a.slice(1),e=(a+\" \"+p.join(d+\" \")+d).split(\" \");return F(b,\"string\")||F(b,\"undefined\")?H(e,b):(e=(a+\" \"+q.join(d+\" \")+d).split(\" \"),I(e,b,c))}function K(){e.input=function(c){for(var d=0,e=c.length;d<e;d++)u[c[d]]=c[d]in k;return u.list&&(u.list=!!b.createElement(\"datalist\")&&!!a.HTMLDataListElement),u}(\"autocomplete autofocus list placeholder max min multiple pattern required step\".split(\" \")),e.inputtypes=function(a){for(var d=0,e,f,h,i=a.length;d<i;d++)k.setAttribute(\"type\",f=a[d]),e=k.type!==\"text\",e&&(k.value=l,k.style.cssText=\"position:absolute;visibility:hidden;\",/^range$/.test(f)&&k.style.WebkitAppearance!==c?(g.appendChild(k),h=b.defaultView,e=h.getComputedStyle&&h.getComputedStyle(k,null).WebkitAppearance!==\"textfield\"&&k.offsetHeight!==0,g.removeChild(k)):/^(search|tel)$/.test(f)||(/^(url|email)$/.test(f)?e=k.checkValidity&&k.checkValidity()===!1:e=k.value!=l)),t[a[d]]=!!e;return t}(\"search tel url email datetime date month week time datetime-local number range color\".split(\" \"))}var d=\"2.7.1\",e={},f=!0,g=b.documentElement,h=\"modernizr\",i=b.createElement(h),j=i.style,k=b.createElement(\"input\"),l=\":)\",m={}.toString,n=\" -webkit- -moz- -o- -ms- \".split(\" \"),o=\"Webkit Moz O ms\",p=o.split(\" \"),q=o.toLowerCase().split(\" \"),r={svg:\"http://www.w3.org/2000/svg\"},s={},t={},u={},v=[],w=v.slice,x,y=function(a,c,d,e){var f,i,j,k,l=b.createElement(\"div\"),m=b.body,n=m||b.createElement(\"body\");if(parseInt(d,10))while(d--)j=b.createElement(\"div\"),j.id=e?e[d]:h+(d+1),l.appendChild(j);return f=[\"&#173;\",'<style id=\"s',h,'\">',a,\"</style>\"].join(\"\"),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background=\"\",n.style.overflow=\"hidden\",k=g.style.overflow,g.style.overflow=\"hidden\",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},z=function(b){var c=a.matchMedia||a.msMatchMedia;if(c)return c(b).matches;var d;return y(\"@media \"+b+\" { #\"+h+\" { position: absolute; } }\",function(b){d=(a.getComputedStyle?getComputedStyle(b,null):b.currentStyle)[\"position\"]==\"absolute\"}),d},A=function(){function d(d,e){e=e||b.createElement(a[d]||\"div\"),d=\"on\"+d;var f=d in e;return f||(e.setAttribute||(e=b.createElement(\"div\")),e.setAttribute&&e.removeAttribute&&(e.setAttribute(d,\"\"),f=F(e[d],\"function\"),F(e[d],\"undefined\")||(e[d]=c),e.removeAttribute(d))),e=null,f}var a={select:\"input\",change:\"input\",submit:\"form\",reset:\"form\",error:\"img\",load:\"img\",abort:\"img\"};return d}(),B={}.hasOwnProperty,C;!F(B,\"undefined\")&&!F(B.call,\"undefined\")?C=function(a,b){return B.call(a,b)}:C=function(a,b){return b in a&&F(a.constructor.prototype[b],\"undefined\")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!=\"function\")throw new TypeError;var d=w.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(w.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(w.call(arguments)))};return e}),s.flexbox=function(){return J(\"flexWrap\")},s.canvas=function(){var a=b.createElement(\"canvas\");return!!a.getContext&&!!a.getContext(\"2d\")},s.canvastext=function(){return!!e.canvas&&!!F(b.createElement(\"canvas\").getContext(\"2d\").fillText,\"function\")},s.webgl=function(){return!!a.WebGLRenderingContext},s.touch=function(){var c;return\"ontouchstart\"in a||a.DocumentTouch&&b instanceof DocumentTouch?c=!0:y([\"@media (\",n.join(\"touch-enabled),(\"),h,\")\",\"{#modernizr{top:9px;position:absolute}}\"].join(\"\"),function(a){c=a.offsetTop===9}),c},s.geolocation=function(){return\"geolocation\"in navigator},s.postmessage=function(){return!!a.postMessage},s.websqldatabase=function(){return!!a.openDatabase},s.indexedDB=function(){return!!J(\"indexedDB\",a)},s.hashchange=function(){return A(\"hashchange\",a)&&(b.documentMode===c||b.documentMode>7)},s.history=function(){return!!a.history&&!!history.pushState},s.draganddrop=function(){var a=b.createElement(\"div\");return\"draggable\"in a||\"ondragstart\"in a&&\"ondrop\"in a},s.websockets=function(){return\"WebSocket\"in a||\"MozWebSocket\"in a},s.rgba=function(){return D(\"background-color:rgba(150,255,150,.5)\"),G(j.backgroundColor,\"rgba\")},s.hsla=function(){return D(\"background-color:hsla(120,40%,100%,.5)\"),G(j.backgroundColor,\"rgba\")||G(j.backgroundColor,\"hsla\")},s.multiplebgs=function(){return D(\"background:url(https://),url(https://),red url(https://)\"),/(url\\s*\\(.*?){3}/.test(j.background)},s.backgroundsize=function(){return J(\"backgroundSize\")},s.borderimage=function(){return J(\"borderImage\")},s.borderradius=function(){return J(\"borderRadius\")},s.boxshadow=function(){return J(\"boxShadow\")},s.textshadow=function(){return b.createElement(\"div\").style.textShadow===\"\"},s.opacity=function(){return E(\"opacity:.55\"),/^0.55$/.test(j.opacity)},s.cssanimations=function(){return J(\"animationName\")},s.csscolumns=function(){return J(\"columnCount\")},s.cssgradients=function(){var a=\"background-image:\",b=\"gradient(linear,left top,right bottom,from(#9f9),to(white));\",c=\"linear-gradient(left top,#9f9, white);\";return D((a+\"-webkit- \".split(\" \").join(b+a)+n.join(c+a)).slice(0,-a.length)),G(j.backgroundImage,\"gradient\")},s.cssreflections=function(){return J(\"boxReflect\")},s.csstransforms=function(){return!!J(\"transform\")},s.csstransforms3d=function(){var a=!!J(\"perspective\");return a&&\"webkitPerspective\"in g.style&&y(\"@media (transform-3d),(-webkit-transform-3d){#modernizr{left:9px;position:absolute;height:3px;}}\",function(b,c){a=b.offsetLeft===9&&b.offsetHeight===3}),a},s.csstransitions=function(){return J(\"transition\")},s.fontface=function(){var a;return y('@font-face {font-family:\"font\";src:url(\"https://\")}',function(c,d){var e=b.getElementById(\"smodernizr\"),f=e.sheet||e.styleSheet,g=f?f.cssRules&&f.cssRules[0]?f.cssRules[0].cssText:f.cssText||\"\":\"\";a=/src/i.test(g)&&g.indexOf(d.split(\" \")[0])===0}),a},s.generatedcontent=function(){var a;return y([\"#\",h,\"{font:0/0 a}#\",h,':after{content:\"',l,'\";visibility:hidden;font:3px/1 a}'].join(\"\"),function(b){a=b.offsetHeight>=3}),a},s.video=function(){var a=b.createElement(\"video\"),c=!1;try{if(c=!!a.canPlayType)c=new Boolean(c),c.ogg=a.canPlayType('video/ogg; codecs=\"theora\"').replace(/^no$/,\"\"),c.h264=a.canPlayType('video/mp4; codecs=\"avc1.42E01E\"').replace(/^no$/,\"\"),c.webm=a.canPlayType('video/webm; codecs=\"vp8, vorbis\"').replace(/^no$/,\"\")}catch(d){}return c},s.audio=function(){var a=b.createElement(\"audio\"),c=!1;try{if(c=!!a.canPlayType)c=new Boolean(c),c.ogg=a.canPlayType('audio/ogg; codecs=\"vorbis\"').replace(/^no$/,\"\"),c.mp3=a.canPlayType(\"audio/mpeg;\").replace(/^no$/,\"\"),c.wav=a.canPlayType('audio/wav; codecs=\"1\"').replace(/^no$/,\"\"),c.m4a=(a.canPlayType(\"audio/x-m4a;\")||a.canPlayType(\"audio/aac;\")).replace(/^no$/,\"\")}catch(d){}return c},s.localstorage=function(){try{return localStorage.setItem(h,h),localStorage.removeItem(h),!0}catch(a){return!1}},s.sessionstorage=function(){try{return sessionStorage.setItem(h,h),sessionStorage.removeItem(h),!0}catch(a){return!1}},s.webworkers=function(){return!!a.Worker},s.applicationcache=function(){return!!a.applicationCache},s.svg=function(){return!!b.createElementNS&&!!b.createElementNS(r.svg,\"svg\").createSVGRect},s.inlinesvg=function(){var a=b.createElement(\"div\");return a.innerHTML=\"<svg/>\",(a.firstChild&&a.firstChild.namespaceURI)==r.svg},s.smil=function(){return!!b.createElementNS&&/SVGAnimate/.test(m.call(b.createElementNS(r.svg,\"animate\")))},s.svgclippaths=function(){return!!b.createElementNS&&/SVGClipPath/.test(m.call(b.createElementNS(r.svg,\"clipPath\")))};for(var L in s)C(s,L)&&(x=L.toLowerCase(),e[x]=s[L](),v.push((e[x]?\"\":\"no-\")+x));return e.input||K(),e.addTest=function(a,b){if(typeof a==\"object\")for(var d in a)C(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b==\"function\"?b():b,typeof f!=\"undefined\"&&f&&(g.className+=\" \"+(b?\"\":\"no-\")+a),e[a]=b}return e},D(\"\"),i=k=null,function(a,b){function l(a,b){var c=a.createElement(\"p\"),d=a.getElementsByTagName(\"head\")[0]||a.documentElement;return c.innerHTML=\"x<style>\"+b+\"</style>\",d.insertBefore(c.lastChild,d.firstChild)}function m(){var a=s.elements;return typeof a==\"string\"?a.split(\" \"):a}function n(a){var b=j[a[h]];return b||(b={},i++,a[h]=i,j[i]=b),b}function o(a,c,d){c||(c=b);if(k)return c.createElement(a);d||(d=n(c));var g;return d.cache[a]?g=d.cache[a].cloneNode():f.test(a)?g=(d.cache[a]=d.createElem(a)).cloneNode():g=d.createElem(a),g.canHaveChildren&&!e.test(a)&&!g.tagUrn?d.frag.appendChild(g):g}function p(a,c){a||(a=b);if(k)return a.createDocumentFragment();c=c||n(a);var d=c.frag.cloneNode(),e=0,f=m(),g=f.length;for(;e<g;e++)d.createElement(f[e]);return d}function q(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(c){return s.shivMethods?o(c,a,b):b.createElem(c)},a.createDocumentFragment=Function(\"h,f\",\"return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&(\"+m().join().replace(/[\\w\\-]+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c(\"'+a+'\")'})+\");return n}\")(s,b.frag)}function r(a){a||(a=b);var c=n(a);return s.shivCSS&&!g&&!c.hasCSS&&(c.hasCSS=!!l(a,\"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}\")),k||q(a,c),a}var c=\"3.7.0\",d=a.html5||{},e=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,f=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,g,h=\"_html5shiv\",i=0,j={},k;(function(){try{var a=b.createElement(\"a\");a.innerHTML=\"<xyz></xyz>\",g=\"hidden\"in a,k=a.childNodes.length==1||function(){b.createElement(\"a\");var a=b.createDocumentFragment();return typeof a.cloneNode==\"undefined\"||typeof a.createDocumentFragment==\"undefined\"||typeof a.createElement==\"undefined\"}()}catch(c){g=!0,k=!0}})();var s={elements:d.elements||\"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video\",version:c,shivCSS:d.shivCSS!==!1,supportsUnknownElements:k,shivMethods:d.shivMethods!==!1,type:\"default\",shivDocument:r,createElement:o,createDocumentFragment:p};a.html5=s,r(b)}(this,b),e._version=d,e._prefixes=n,e._domPrefixes=q,e._cssomPrefixes=p,e.mq=z,e.hasEvent=A,e.testProp=function(a){return H([a])},e.testAllProps=J,e.testStyles=y,e.prefixed=function(a,b,c){return b?J(a,b,c):J(a,\"pfx\")},g.className=g.className.replace(/(^|\\s)no-js(\\s|$)/,\"$1$2\")+(f?\" js \"+v.join(\" \"):\"\"),e}(this,this.document),function(a,b,c){function d(a){return\"[object Function]\"==o.call(a)}function e(a){return\"string\"==typeof a}function f(){}function g(a){return!a||\"loaded\"==a||\"complete\"==a||\"uninitialized\"==a}function h(){var a=p.shift();q=1,a?a.t?m(function(){(\"c\"==a.t?B.injectCss:B.injectJs)(a.s,0,a.a,a.x,a.e,1)},0):(a(),h()):q=0}function i(a,c,d,e,f,i,j){function k(b){if(!o&&g(l.readyState)&&(u.r=o=1,!q&&h(),l.onload=l.onreadystatechange=null,b)){\"img\"!=a&&m(function(){t.removeChild(l)},50);for(var d in y[c])y[c].hasOwnProperty(d)&&y[c][d].onload()}}var j=j||B.errorTimeout,l=b.createElement(a),o=0,r=0,u={t:d,s:c,e:f,a:i,x:j};1===y[c]&&(r=1,y[c]=[]),\"object\"==a?l.data=c:(l.src=c,l.type=a),l.width=l.height=\"0\",l.onerror=l.onload=l.onreadystatechange=function(){k.call(this,r)},p.splice(e,0,u),\"img\"!=a&&(r||2===y[c]?(t.insertBefore(l,s?null:n),m(k,j)):y[c].push(l))}function j(a,b,c,d,f){return q=0,b=b||\"j\",e(a)?i(\"c\"==b?v:u,a,b,this.i++,c,d,f):(p.splice(this.i++,0,a),1==p.length&&h()),this}function k(){var a=B;return a.loader={load:j,i:0},a}var l=b.documentElement,m=a.setTimeout,n=b.getElementsByTagName(\"script\")[0],o={}.toString,p=[],q=0,r=\"MozAppearance\"in l.style,s=r&&!!b.createRange().compareNode,t=s?l:n.parentNode,l=a.opera&&\"[object Opera]\"==o.call(a.opera),l=!!b.attachEvent&&!l,u=r?\"object\":l?\"script\":\"img\",v=l?\"script\":u,w=Array.isArray||function(a){return\"[object Array]\"==o.call(a)},x=[],y={},z={timeout:function(a,b){return b.length&&(a.timeout=b[0]),a}},A,B;B=function(a){function b(a){var a=a.split(\"!\"),b=x.length,c=a.pop(),d=a.length,c={url:c,origUrl:c,prefixes:a},e,f,g;for(f=0;f<d;f++)g=a[f].split(\"=\"),(e=z[g.shift()])&&(c=e(c,g));for(f=0;f<b;f++)c=x[f](c);return c}function g(a,e,f,g,h){var i=b(a),j=i.autoCallback;i.url.split(\".\").pop().split(\"?\").shift(),i.bypass||(e&&(e=d(e)?e:e[a]||e[g]||e[a.split(\"/\").pop().split(\"?\")[0]]),i.instead?i.instead(a,e,f,g,h):(y[i.url]?i.noexec=!0:y[i.url]=1,f.load(i.url,i.forceCSS||!i.forceJS&&\"css\"==i.url.split(\".\").pop().split(\"?\").shift()?\"c\":c,i.noexec,i.attrs,i.timeout),(d(e)||d(j))&&f.load(function(){k(),e&&e(i.origUrl,h,g),j&&j(i.origUrl,h,g),y[i.url]=2})))}function h(a,b){function c(a,c){if(a){if(e(a))c||(j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}),g(a,j,b,0,h);else if(Object(a)===a)for(n in m=function(){var b=0,c;for(c in a)a.hasOwnProperty(c)&&b++;return b}(),a)a.hasOwnProperty(n)&&(!c&&!--m&&(d(j)?j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}:j[n]=function(a){return function(){var b=[].slice.call(arguments);a&&a.apply(this,b),l()}}(k[n])),g(a[n],j,b,n,h))}else!c&&l()}var h=!!a.test,i=a.load||a.both,j=a.callback||f,k=j,l=a.complete||f,m,n;c(h?a.yep:a.nope,!!i),i&&c(i)}var i,j,l=this.yepnope.loader;if(e(a))g(a,0,l,0);else if(w(a))for(i=0;i<a.length;i++)j=a[i],e(j)?g(j,0,l,0):w(j)?B(j):Object(j)===j&&h(j,l);else Object(a)===a&&h(a,l)},B.addPrefix=function(a,b){z[a]=b},B.addFilter=function(a){x.push(a)},B.errorTimeout=1e4,null==b.readyState&&b.addEventListener&&(b.readyState=\"loading\",b.addEventListener(\"DOMContentLoaded\",A=function(){b.removeEventListener(\"DOMContentLoaded\",A,0),b.readyState=\"complete\"},0)),a.yepnope=k(),a.yepnope.executeStack=h,a.yepnope.injectJs=function(a,c,d,e,i,j){var k=b.createElement(\"script\"),l,o,e=e||B.errorTimeout;k.src=a;for(o in d)k.setAttribute(o,d[o]);c=j?h:c||f,k.onreadystatechange=k.onload=function(){!l&&g(k.readyState)&&(l=1,c(),k.onload=k.onreadystatechange=null)},m(function(){l||(l=1,c(1))},e),i?k.onload():n.parentNode.insertBefore(k,n)},a.yepnope.injectCss=function(a,c,d,e,g,i){var e=b.createElement(\"link\"),j,c=i?h:c||f;e.href=a,e.rel=\"stylesheet\",e.type=\"text/css\";for(j in d)e.setAttribute(j,d[j]);g||(n.parentNode.insertBefore(e,n),m(c,0))}}(this,document),Modernizr.load=function(){yepnope.apply(window,[].slice.call(arguments,0))};\r\n\r\n//READY FUNCTION\r\nvar ready=function(){function i(){if(r.isReady){return}try{document.documentElement.doScroll(\"left\")}catch(e){setTimeout(i,1);return}r.ready()}function s(t){r.bindReady();var n=r.type(t);e.done(t)}var e,t,n={};n[\"[object Boolean]\"]=\"boolean\";n[\"[object Number]\"]=\"number\";n[\"[object String]\"]=\"string\";n[\"[object Function]\"]=\"function\";n[\"[object Array]\"]=\"array\";n[\"[object Date]\"]=\"date\";n[\"[object RegExp]\"]=\"regexp\";n[\"[object Object]\"]=\"object\";var r={isReady:false,readyWait:1,holdReady:function(e){if(e){r.readyWait++}else{r.ready(true)}},ready:function(t){if(t===true&&!--r.readyWait||t!==true&&!r.isReady){if(!document.body){return setTimeout(r.ready,1)}r.isReady=true;if(t!==true&&--r.readyWait>0){return}e.resolveWith(document,[r])}},bindReady:function(){if(e){return}e=r._Deferred();if(document.readyState===\"complete\"){return setTimeout(r.ready,1)}if(document.addEventListener){document.addEventListener(\"DOMContentLoaded\",t,false);window.addEventListener(\"load\",r.ready,false)}else if(document.attachEvent){document.attachEvent(\"onreadystatechange\",t);window.attachEvent(\"onload\",r.ready);var n=false;try{n=window.frameElement==null}catch(s){}if(document.documentElement.doScroll&&n){i()}}},_Deferred:function(){var e=[],t,n,i,s={done:function(){if(!i){var n=arguments,o,u,a,f,l;if(t){l=t;t=0}for(o=0,u=n.length;o<u;o++){a=n[o];f=r.type(a);if(f===\"array\"){s.done.apply(s,a)}else if(f===\"function\"){e.push(a)}}if(l){s.resolveWith(l[0],l[1])}}return this},resolveWith:function(r,s){if(!i&&!t&&!n){s=s||[];n=1;try{while(e[0]){e.shift().apply(r,s)}}finally{t=[r,s];n=0}}return this},resolve:function(){s.resolveWith(this,arguments);return this},isResolved:function(){return!!(n||t)},cancel:function(){i=1;e=[];return this}};return s},type:function(e){return e==null?String(e):n[Object.prototype.toString.call(e)]||\"object\"}};if(document.addEventListener){t=function(){document.removeEventListener(\"DOMContentLoaded\",t,false);r.ready()}}else if(document.attachEvent){t=function(){if(document.readyState===\"complete\"){document.detachEvent(\"onreadystatechange\",t);r.ready()}}}return s}()\r\n</script>",
+        "created_by": 1,
+        "version": 1,
+        "created_date": "2015-08-10T02:48:51.171Z",
+        "slug": "partials_modernizr",
+        "file_template": null
+    },
+    "model": "core.template",
+    "pk": 2
+},
+{
+    "fields": {
+        "modified_date": "2015-08-10T02:49:35.334Z",
+        "modified_by": 1,
+        "admin_note": "",
+        "title": "Partials > Debug",
+        "custom_template": "{% load i18n helpful_tags %}\r\n\r\n{% if request.user or request.original_user %}\r\n{% if request.user.is_staff or request.original_user.is_staff %}\r\n<div class=\"container\">\r\n    <div class=\"debug-container\">\r\n        \r\n        &raquo; \r\n        \r\n        {% if object %}\r\n    \t{% get_model_label object as model_label %}\r\n        <span>{{model_label}} [{{object.pk}}]</span>        \r\n        \r\n        {% if object.is_published == False %}<strong>This item is not published</strong>{% endif %}\r\n        {% if object.is_moderated == False %}<strong>This item is not moderated</strong>{% endif %}\r\n        \r\n        \r\n        {% url_to_edit_object object as edit_url %}\r\n        <a href=\"{{edit_url}}\" target=\"_blank\">{% trans \"Edit in admin\" %}</a>  \r\n        {% endif %}\r\n         \r\n        \r\n        <span class=\"pull-right\">\r\n            {% if request.impersonating %}Impersonating {{request.impersonating}} | <a href='{% url_add_query __unimpersonate=True %}'>Stop Impersonating</a>{% endif %}\r\n            <a href=\"#\" class=\"debug-item-toggle\"><i class=\"fa fa-search\"></i></a>\r\n        </span>\r\n        \r\n    </div>\r\n</div>\r\n\r\n{% endif %}\r\n{% endif %}",
+        "created_by": 1,
+        "version": 1,
+        "created_date": "2015-08-10T02:49:35.334Z",
+        "slug": "partials_debug",
+        "file_template": null
+    },
+    "model": "core.template",
+    "pk": 3
+},
+{
+    "fields": {
+        "modified_date": "2015-08-10T03:07:14.924Z",
+        "modified_by": 1,
+        "admin_note": "",
+        "title": "Partials > Footer",
+        "custom_template": "{% load staticfiles i18n helpful_tags core_tags cache %}\r\n<footer id=\"footer\">\r\n    <div class=\"container\" itemscope itemtype=\"http://schema.org/LocalBusiness\">\r\n        \r\n        {% cache 86400 'site-menu-footer' %}  \r\n        {% get_link_descendants \"footer-menu\" as footerlinks %}\r\n        <ul class=\"footer-links debug-item {{footerlinks.css_classes}}\" {{footerlinks.item|edit_attribute}} >\r\n            <li>&copy; {% now \"Y\" %} <span itemprop=\"name\">ProxyDoodle</span></li>\r\n            {% for obj in footerlinks.children %}\r\n            <li class=\"{{obj.item.css_classes}}\"><a href=\"{{ obj.item.path }}\"><span {{obj.item.extra_attributes|safe}}>{{ obj.item.title }}</span></a></li>\r\n            {% endfor %}\r\n        </ul>\r\n        {% endcache %}\r\n        \r\n        {% cache 86400 'site-social-links-footer' %}  \r\n        {% get_link_descendants \"social-media-links\" as sociallinks %}\r\n        <ul class=\"footer-social-links debug-item  {{footerlinks.css_classes}}\" {{sociallinks.item|edit_attribute}} >\r\n            {% for obj in sociallinks.children %}\r\n        \t<li class=\"{{obj.item.css_classes}}\"><a href=\"{{ obj.item.path }}\" target=\"_blank\"  {{obj.item.extra_attributes|safe}} ><i class=\"fa fa-{{obj.item.slug}}\"></i></a></li>\r\n            {% endfor %}\r\n        </ul>\r\n        {% endcache %}\r\n        \r\n    </div>\r\n</footer>",
+        "created_by": 1,
+        "version": 3,
+        "created_date": "2015-08-10T02:49:55.575Z",
+        "slug": "partials_footer",
+        "file_template": null
+    },
+    "model": "core.template",
+    "pk": 4
+},
+{
+    "fields": {
+        "modified_date": "2015-08-10T02:50:13.848Z",
+        "modified_by": 1,
+        "admin_note": "",
+        "title": "Partials > Pagination",
+        "custom_template": "{% load helpful_tags %}\r\n\r\n{% if page_obj.has_previous or page_obj.has_next %}\r\n<ul class=\"pagination\">\r\n        {% if page_obj.has_previous %}\r\n            <li>\r\n                <a href=\"{% url_add_query page=page_obj.previous_page_number %}\" aria-label=\"Previous\">\r\n                    <span aria-hidden=\"true\">&laquo;</span>\r\n                </a>\r\n            </li>\r\n        {% endif %}\r\n\r\n       \r\n        {% pick_pages page_obj.paginator.num_pages page_obj.number as pagination_range %}\r\n        {% for i in pagination_range %}\r\n\r\n            {% if i %}\r\n            <li {% if page_obj.number = i %}class=\"active\"{% endif %}>\r\n                <a href=\"{% url_add_query page=i %}\">{{i}}</a>\r\n            </li>    \r\n            {% else %}\r\n            <li class=\"inactive\">&hellip;</li>    \r\n            {% endif %}\r\n        {% endfor %}  \r\n\r\n\r\n        {% if page_obj.has_next %}\r\n            <li>\r\n                <a href=\"{% url_add_query page=page_obj.next_page_number %}\" aria-label=\"Next\">\r\n                    <span aria-hidden=\"true\">&raquo;</span>\r\n                </a>\r\n            </li>\r\n        {% endif %}\r\n</ul>\r\n{% endif %}",
+        "created_by": 1,
+        "version": 1,
+        "created_date": "2015-08-10T02:50:13.848Z",
+        "slug": "partials_pagination",
+        "file_template": null
+    },
+    "model": "core.template",
+    "pk": 5
+},
+{
+    "fields": {
+        "modified_date": "2015-08-10T02:50:32.877Z",
+        "modified_by": 1,
+        "admin_note": "",
+        "title": "Partials > Social Sharing",
+        "custom_template": "{% load staticfiles i18n helpful_tags core_tags cache share_me_share_me_tags %}\r\n\r\n{% if object and object.shareable %}\r\n{% get_social_share_links as social_links %}\r\n{% if social_links|length > 0 %}\r\n<ul class=\"social sticky\">\r\n\t{% for link in social_links %}\r\n\t    {% with url=object.get_absolute_url %}\r\n\t\t{% get_social_share_link link url object.title as link_url %}\r\n\t\t{% get_social_share_count link.type as share_count %}\r\n\t\t<li>\r\n\t\t\t<a href=\"{{ link_url }}\" target=\"_blank\">\r\n\t\t\t\t<i class=\"fa fa-{{link.font_awesome_class}}\"></i>\r\n\t\t\t</a>\r\n\t\t</li>\r\n\t\t{% endwith %}\r\n\t{% endfor %}\r\n</ul>\r\n{% endif %}\r\n{% endif %}",
+        "created_by": 1,
+        "version": 2,
+        "created_date": "2015-08-10T02:50:30.291Z",
+        "slug": "partials_social_sharing",
+        "file_template": null
+    },
+    "model": "core.template",
+    "pk": 6
+},
+{
+    "fields": {
+        "modified_date": "2015-08-10T03:09:25.641Z",
+        "modified_by": 1,
+        "admin_note": "",
+        "title": "Base Template",
+        "custom_template": "{% load staticfiles i18n helpful_tags cache core_tags %}\r\n<!DOCTYPE html>\r\n<!--[if lt IE 7]> <html class=\"no-js ie lt-ie7 lt-ie9\" lang=\"en\"> <![endif]-->\r\n<!--[if IE 7]>    <html class=\"no-js ie ie7 lt-ie9\" lang=\"en\"> <![endif]-->\r\n<!--[if IE 8]>    <html class=\"no-js ie ie8 lt-ie9\" lang=\"en\"> <![endif]-->\r\n<!--[if IE 9]>    <html class=\"no-js ie ie9 gte-ie9\" lang=\"en\"> <![endif]-->\r\n<!--[if gt IE 9]>    <html class=\"no-js gte-ie9\" lang=\"en\"> <![endif]-->\r\n<!--[if !IE ]>    <html class=\"no-js gte-ie9\" lang=\"en\"> <![endif]-->\r\n<html class=\"no-js gte-ie9\" lang=\"en\" >\r\n    <head>\r\n        <meta charset=\"utf-8\" />\r\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\r\n\r\n        <title>{% block title %}{% if object %}{{ object.title }}{% endif %}{% endblock %}{% block titlediv %} | {% endblock %}{{ SITE_TITLE }}</title>\r\n        <meta name=\"description\" content=\"{% block description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\" />\r\n        <meta name=\"keywords\" content=\"{% block keywords %}{% if object.page_meta_keywords %}{{object.page_meta_keywords}}{% else %}Wedding, event, photography{% endif %}{% endblock %}\" />\r\n\r\n        <!-- Facebook Open Graph -->\r\n        <meta property=\"og:title\" content=\"{% block og:title %}{{ SITE_TITLE }}{% endblock %}\" />\r\n        <meta property=\"og:description\" content=\"{% block og:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\" />\r\n        <meta property=\"og:type\" content=\"{% block og:type %}article{% endblock %}\" />\r\n        <meta property=\"og:url\" content=\"{{ request.build_absolute_uri }}\" />\r\n        <meta property=\"og:site_name\" content=\"{{ SITE_TITLE }}\" />\r\n        <meta property=\"og:image\" content=\"{% block og:image %}{% static 'social-icon.png' %}{% endblock %}\" />\r\n\r\n        <!-- Twitter Card -->\r\n        <meta name=\"twitter:card\" content=\"summary\" />\r\n        <meta name=\"twitter:site\" content=\"{% block twitter:site %}@{% endblock %}\" />\r\n        <meta name=\"twitter:title\" content=\"{% block twitter:title %}{{ SITE_TITLE }}{% endblock %}\" />\r\n        <meta name=\"twitter:description\" content=\"{% block twitter:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\" />\r\n        <meta name=\"twitter:url\" content=\"{{ request.build_absolute_uri }}\" />\r\n        <meta name=\"twitter:image:src\" content=\"{% block twitter:image %}{% static 'social-icon.png' %}{% endblock %}\" />\r\n        <meta name=\"twitter:creator\" content=\"{% block twitter:creator %}@{% endblock %}\" />\r\n        \r\n        <!-- Schema.org markup for Google+ --> \r\n        <meta itemprop=\"name\" content=\"{% block google:title %}{{ SITE_TITLE }}{% endblock %}\" />\r\n        <meta itemprop=\"description\" content=\"{% block google:description %}{% if object.page_meta_description %}{{object.page_meta_description}}{% else %}Event photographer based in Raleigh, Durham, Chapel Hill{% endif %}{% endblock %}\" />\r\n        <meta itemprop=\"image\" content=\"{% block google:image %}{% static 'social-icon.png' %}{% endblock %}\" />\r\n\r\n        <link rel=\"canonical\" href=\"{% block canonical_url %}{% get_canonical_url as canonical_url %}{{canonical_url}}{% endblock %}\" />\r\n\r\n        <!-- Icons -->\r\n        <!-- See http://realfavicongenerator.net/ for generating favicon variants -->\r\n        <link rel=\"icon\" type=\"image/png\" href=\"/favicon.ico?v=1\" />\r\n        <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"/apple-touch-icon-57x57.png\" />\r\n        <link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"/apple-touch-icon-60x60.png\" />\r\n        <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"/apple-touch-icon-72x72.png\" />\r\n        <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"/apple-touch-icon-76x76.png\" />\r\n        <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"/apple-touch-icon-114x114.png\" />\r\n        <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/apple-touch-icon-120x120.png\" />      \r\n        <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"/apple-touch-icon-144x144.png\" />\r\n        <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/apple-touch-icon-152x152.png\" />\r\n        <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon-180x180.png\" />\r\n        <link rel=\"icon\" type=\"image/png\" href=\"/favicon-16x16.png\" sizes=\"16x16\" />\r\n        <link rel=\"icon\" type=\"image/png\" href=\"/favicon-32x32.png\" sizes=\"32x32\" />\r\n        <link rel=\"icon\" type=\"image/png\" href=\"/favicon-96x96.png\" sizes=\"96x96\" />\r\n        <link rel=\"icon\" type=\"image/png\" href=\"/favicon-160x160.png\" sizes=\"160x160\" />\r\n        <link rel=\"icon\" type=\"image/png\" href=\"/favicon-192x192.png\" sizes=\"192x192\" />\r\n        <meta name=\"msapplication-TileColor\" content=\"#00a300\" />\r\n        <meta name=\"msapplication-TileImage\" content=\"/mstile-144x144.png\" />\r\n\r\n        <!-- WEBMASTER VERIFICATION -->\r\n        <meta name=\"google-site-verification\" content=\"_Va3UWlvCRY_SF6z7GhcekNLz7nekFlim3f-YAVHUH4\" />\r\n\r\n        <!-- FONT AWESOME -->\r\n        <link href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\" rel=\"stylesheet\"/>\r\n    \r\n        <!-- FONTS -->\r\n        <link href='//fonts.googleapis.com/css?family=Quicksand:400,700|Great+Vibes|Merriweather:400,700' rel='stylesheet' type='text/css'>\r\n        \r\n        \r\n\r\n        {% block css %}{% endblock %}     \r\n        \r\n        \r\n        <!--[if lt IE 9]>\r\n            \r\n            <script src=\"//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js\"></script>\r\n            <script src=\"//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js\"></script>\r\n            <script src=\"//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js\"></script>\r\n            \r\n        <![endif]-->\r\n\r\n        {% include 'partials_modernizr' %}\r\n        \r\n    </head>\r\n    <body class=\"{% block bodyclass %}{% endblock %} {% if object %}page-{{object.slug}}{% endif %}\" data-site-id=\"{{SITE_ID}}\" {% block bodydata %}{% endblock %} {% block bodyscope %}itemscope itemType=\"https://schema.org/WebPage\"{% endblock %}>\r\n        \r\n        <header id=\"header\">            \r\n    \r\n            <nav class=\"navbar navbar-fixed-top\">\r\n                {% include 'partials_debug' %}\r\n              <div class=\"container menu\">\r\n                \r\n                <div class=\"navbar-header\">\r\n                    <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\r\n                    {{ SITE_TITLE }}\r\n                    </button>            \r\n                </div>\r\n                \r\n                <div>\r\n                   <div id=\"navbar\" class=\"navbar-collapse collapse\"> \r\n                   \r\n                        <a class=\"navbar-brand\" href=\"/\">\r\n                          {% block site_header_title %}\r\n                          <span>Home</span>\r\n                          {% endblock %}\r\n                        </a>\r\n                        \r\n                        {% cache 86400 'header-menu-left' %} \r\n                        {% get_link_descendants \"header-menu-left\" as headerlinks %}\r\n                        <ul class=\"nav navbar-nav debug-item {{headerlinks.item.css_classes}}\" {{headerlinks.item|edit_attribute}}>\r\n                        \r\n                        \r\n                        \r\n                        {% for obj in headerlinks.children %}\r\n                        \r\n                        {% if obj.children.children|length > 0 %}\r\n                        <li class=\"dropdown\">\r\n                            <a href=\"{{ obj.item.path }}\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">{{ obj.item.title }} <span class=\"caret\"></span></a>\r\n                            \r\n                            <ul class=\"dropdown-menu\" role=\"menu\">\r\n                            {% for child in obj.children.children %}\r\n                                <li class=\"level-1\"><a href=\"{{ child.item.path }}\">{{ child.item.title }}</a></li>\r\n                            \r\n                                {% for subchild in child.children.children %}\r\n                                <li class=\"level-2\"><a href=\"{{ subchild.item.path }}\">{{ subchild.item.title }}</a></li>\r\n                                {% endfor %}\r\n                                \r\n                            {% endfor %}\r\n                            </ul>\r\n                        </li>\r\n                        {% else %}\r\n                        <li><a href=\"{{ obj.item.path }}\">{{ obj.item.title }}</a></li>\r\n                        {% endif %}\r\n                        \r\n                        {% endfor %}\r\n                        \r\n                        </ul>\r\n                        {% endcache %}\r\n                        \r\n                        \r\n                        \r\n                        \r\n                        {% cache 86400 'header-menu-right' %} \r\n                        {% get_link_descendants \"header-menu-right\" as headerlinks %}\r\n                        <ul class=\"nav navbar-nav debug-item  {{headerlinks.item.css_classes}}\" {{headerlinks.item|edit_attribute}}>\r\n                        \r\n                        \r\n                        \r\n                        {% for obj in headerlinks.children %}\r\n                        \r\n                        {% if obj.children.children|length > 0 %}\r\n                        <li class=\"dropdown\">\r\n                            <a href=\"{{ obj.item.path }}\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">{{ obj.item.title }} <span class=\"caret\"></span></a>\r\n                            \r\n                            <ul class=\"dropdown-menu\" role=\"menu\">\r\n                            {% for child in obj.children.children %}\r\n                                <li class=\"level-1\"><a href=\"{{ child.item.path }}\">{{ child.item.title }}</a></li>\r\n                            \r\n                                {% for subchild in child.children.children %}\r\n                                <li class=\"level-2\"><a href=\"{{ subchild.item.path }}\">{{ subchild.item.title }}</a></li>\r\n                                {% endfor %}\r\n                                \r\n                            {% endfor %}\r\n                            </ul>\r\n                        </li>\r\n                        {% else %}\r\n                        <li><a href=\"{{ obj.item.path }}\">{{ obj.item.title }}</a></li>\r\n                        {% endif %}\r\n                        \r\n                        {% endfor %}\r\n                        \r\n                        </ul>\r\n                        {% endcache %}\r\n                        \r\n                    </div>\r\n                </div>\r\n              </div>\r\n            </nav>          \r\n        </header>\r\n        \r\n        {% block below_header %}{% endblock %}\r\n\r\n        {% block main %}\r\n        <div id=\"main\"  >\r\n            <div class=\"container\">\r\n                \r\n                \r\n                {% block social_sharing %}\r\n                    {% include 'partials_social_sharing' %}\r\n                {% endblock %}\r\n                \r\n                {% block breadcrumbs %}\r\n                {% with hierarchy=object.get_hierarchy %}\r\n                {% if hierarchy|length > 2 %}\r\n                    <ol class=\"breadcrumb\">\r\n                    {% for page in hierarchy %}\r\n                        {% if forloop.first %}\r\n                        \r\n                        {% elif forloop.last %}\r\n                        <li {% if forloop.last %}class=\"last\"{% endif %}>{{page.title}}</li>\r\n                        {% else %}\r\n                        <li {% if forloop.last %}class=\"last\"{% endif %}><a href=\"{{page.get_absolute_url}}\">{{page.title}}</a></li>\r\n                        {% endif %}\r\n                    {% endfor %}\r\n                    </ol>\r\n                {% endif %}\r\n                {% endwith %}\r\n                {% endblock %}\r\n                \r\n                {% if messages %}\r\n                <div class=\"messages\">\r\n                {% block messages %}\r\n                    <ul>\r\n                        {% for message in messages %}\r\n                        <li{% if message.tags %} class=\"{{ message.tags }}\"{% endif %}>{{ message }}</li>\r\n                        {% endfor %}\r\n                    </ul>\r\n                {% endblock %}\r\n                </div>\r\n                {% endif %}\r\n                \r\n                {% block pagetitle %}{% if object %}<h1 itemprop=\"name\">{{ object.title }}</h1>{% endif %}{% endblock %}\r\n                \r\n                {% block content %}{% endblock %}\r\n            </div>               \r\n        </div>\r\n        {% endblock %}\r\n\r\n        {% include 'partials_footer' %}\r\n        \r\n        <!-- jQuery, Libs, Custom JS -->\r\n        <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>\r\n        \r\n        <!-- Comes after chrisharburg.core.min.js because it requires jquery -->\r\n        <!--[if lte IE 9]>\r\n            <script src=\"{% static 'proxydoodle/js/vendor/jquery.placeholder.min.js' %}\" ></script>\r\n        <![endif]-->\r\n        \r\n        <!-- Jquery other libs, and custom jQuery -->\r\n        \r\n\r\n        {% if not donottrack %}\r\n            <script>\r\n              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n            \r\n              ga('create', 'UA-66086259-1', 'auto');\r\n              ga('send', 'pageview');\r\n            \r\n            </script>\r\n        {% endif %}\r\n\r\n        {% block js %}{% endblock %}\r\n\r\n    </body>\r\n</html>\r\n",
+        "created_by": 1,
+        "version": 3,
+        "created_date": "2015-08-10T02:51:37.626Z",
+        "slug": "base_template",
+        "file_template": null
+    },
+    "model": "core.template",
+    "pk": 7
+},
+{
+    "fields": {
+        "modified_date": "2015-08-10T02:54:29.570Z",
+        "modified_by": 1,
+        "admin_note": "",
+        "title": "Page > Base",
+        "custom_template": "{% extends 'base_template' %}\r\n\r\n\r\n{% block breadcrumbs %}\r\n\r\n{% comment %}\r\n{% with hierarchy=object.get_hierarchy %}\r\n{% if hierarchy|length > 2 %}\r\n    <ol class=\"breadcrumb\">\r\n    {% for page in hierarchy %}\r\n        {% if forloop.first %}\r\n        \r\n        {% elif forloop.last %}\r\n        <li class=\"last\">{{page.title}}</li>\r\n        {% else %}\r\n        <li><a href=\"{{page.get_absolute_url}}\" {% if forloop.last %}class=\"last\"{% endif %}>{{page.title}}</a></li>\r\n        {% endif %}\r\n    {% endfor %}\r\n    </ol>\r\n{% endif %}\r\n{% endwith %}\r\n{% endcomment %}\r\n\r\n{% endblock %}\r\n\r\n\r\n{% block title %}{{object.title}}{% endblock %}\r\n\r\n{% block content %}\r\n\r\n<div class=\"bodytext\">\r\n    {% if object.synopsis %}<h3>{{object.synopsis|safe}}</h3>{% endif %}\r\n    \r\n    {{object.content|safe}}\r\n    \r\n    {% for block in page_blocks %}\r\n    <section class=\"page-block {{block.slug}}\">\r\n    {{block.content|safe}}\r\n    </section>\r\n    {% endfor %}\r\n</div>\r\n\r\n{% endblock %}",
+        "created_by": 1,
+        "version": 2,
+        "created_date": "2015-08-10T02:52:35.328Z",
+        "slug": "page_base",
+        "file_template": null
+    },
+    "model": "core.template",
+    "pk": 8
+},
+{
+    "fields": {
+        "parent": 1,
+        "modified_date": "2015-08-10T03:08:15.512Z",
+        "temporary_redirect": "",
+        "permanent_redirect": "",
+        "modified_by": null,
+        "uuid": "core.AdminLink.0aebb1b5-3f0d-11e5-939f-80e6501e3cea",
+        "admin_note": null,
+        "title": "Clear Cache",
+        "hierarchy": "/0000/helpful-links/0001/clear-cache/",
+        "path_generated": "/helpful-links/clear-cache/",
+        "created_by": null,
+        "order": 1,
+        "url": "/admin/utils/cache/clear/",
+        "version": 1,
+        "path_override": null,
+        "template": null,
+        "created_date": "2015-08-10T03:08:15.512Z",
+        "path": "/helpful-links/clear-cache/",
+        "slug": "clear-cache"
+    },
+    "model": "core.adminlink",
+    "pk": 1
+},
+{
+    "fields": {
+        "modified_date": "2015-08-10T03:08:15.495Z",
+        "temporary_redirect": "",
+        "permanent_redirect": "",
+        "modified_by": 1,
+        "uuid": "core.AdminSidebar.0ae6c53d-3f0d-11e5-81ad-80e6501e3cea",
+        "admin_note": "",
+        "title": "Helpful Links",
+        "hierarchy": "/0000/helpful-links/",
+        "path_generated": "/helpful-links/",
+        "created_by": 1,
+        "order": 0,
+        "version": 1,
+        "path_override": null,
+        "template": null,
+        "created_date": "2015-08-10T03:08:15.495Z",
+        "path": "/helpful-links/",
+        "slug": "helpful-links"
+    },
+    "model": "core.adminsidebar",
+    "pk": 1
+},
+{
+    "fields": {
+        "noindex": false,
+        "publish_on_date": null,
+        "permanent_redirect": "",
+        "hierarchy": "/0000/homepage/",
+        "image": null,
+        "path_generated": "/homepage/",
+        "is_searchable": true,
+        "google_author_id": "",
+        "in_sitemap": true,
+        "facebook_author_id": "",
+        "path": "/",
+        "social_share_type": "article",
+        "modified_date": "2015-08-10T01:58:39.111Z",
+        "modified_by": null,
+        "admin_note": "",
+        "title": "Homepage",
+        "twitter_author_id": "",
+        "created_by": null,
+        "content": "<p>Content test</p>\r\n",
+        "version": 2,
+        "tiny_url": "",
+        "path_override": "/",
+        "template": 1,
+        "publication_status": 100,
+        "parent": null,
+        "tags": [],
+        "page_meta_description": "",
+        "expire_on_date": null,
+        "social_share_image": null,
+        "sitemap_changefreq": "monthly",
+        "published_by": null,
+        "publication_date": null,
+        "slug": "homepage",
+        "uuid": "page.Page.928cb940-3f02-11e5-abeb-80e6501e3cea",
+        "temporary_redirect": "",
+        "page_meta_keywords": "",
+        "sitemap_priority": "0.5",
+        "nofollow": false,
+        "synopsis": "",
+        "shareable": false,
+        "created_date": "2015-08-10T01:53:18.596Z",
+        "order": 0
+    },
+    "model": "page.page",
+    "pk": 1
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T01:49:25.942Z",
+        "object_repr": "Nina Pavlich",
+        "object_id": "1",
+        "change_message": "Changed first_name and last_name.",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 1
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T01:50:03.784Z",
+        "object_repr": "Image :: 1D51Bf7A1Ed8D392C52Ba8A7F7986A44 650X",
+        "object_id": "1",
+        "change_message": "",
+        "user": 1,
+        "content_type": 15
+    },
+    "model": "admin.logentry",
+    "pk": 2
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T01:50:09.907Z",
+        "object_repr": "Nina Pavlich",
+        "object_id": "1",
+        "change_message": "Changed image.",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 3
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T01:53:10.375Z",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "change_message": "",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 4
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T01:53:18.610Z",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "change_message": "",
+        "user": 1,
+        "content_type": 41
+    },
+    "model": "admin.logentry",
+    "pk": 5
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T01:53:49.779Z",
+        "object_repr": "127.0.0.1:8000",
+        "object_id": "1",
+        "change_message": "Changed domain and name.",
+        "user": 1,
+        "content_type": 49
+    },
+    "model": "admin.logentry",
+    "pk": 6
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T01:53:55.903Z",
+        "object_repr": "127.0.0.1:8000",
+        "object_id": "1",
+        "change_message": "No fields changed.",
+        "user": 1,
+        "content_type": 49
+    },
+    "model": "admin.logentry",
+    "pk": 7
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T01:54:14.231Z",
+        "object_repr": "proxydoodle.herokuapp.com",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 49
+    },
+    "model": "admin.logentry",
+    "pk": 8
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T01:55:15.608Z",
+        "object_repr": "proxydoodle.herokuapp.com",
+        "object_id": "2",
+        "change_message": "No fields changed.",
+        "user": 1,
+        "content_type": 49
+    },
+    "model": "admin.logentry",
+    "pk": 9
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T01:55:44.796Z",
+        "object_repr": "proxydoodle.com",
+        "object_id": "3",
+        "change_message": "",
+        "user": 1,
+        "content_type": 49
+    },
+    "model": "admin.logentry",
+    "pk": 10
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T01:58:39.130Z",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "change_message": "Changed path_override.",
+        "user": 1,
+        "content_type": 41
+    },
+    "model": "admin.logentry",
+    "pk": 11
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T01:59:14.959Z",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "change_message": "Changed custom_template.",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 12
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T01:59:31.199Z",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "change_message": "Changed custom_template.",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 13
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T02:48:51.177Z",
+        "object_repr": "Partials > Modernizr",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 14
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T02:49:35.339Z",
+        "object_repr": "Partials > Debug",
+        "object_id": "3",
+        "change_message": "",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 15
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T02:49:55.585Z",
+        "object_repr": "Partials > Footer",
+        "object_id": "4",
+        "change_message": "",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 16
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T02:49:59.538Z",
+        "object_repr": "Partials > Footer",
+        "object_id": "4",
+        "change_message": "No fields changed.",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 17
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T02:50:13.853Z",
+        "object_repr": "Partials > Pagination",
+        "object_id": "5",
+        "change_message": "",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 18
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T02:50:30.296Z",
+        "object_repr": "Partials > Social Sharing",
+        "object_id": "6",
+        "change_message": "",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 19
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T02:50:32.883Z",
+        "object_repr": "Partials > Social Sharing",
+        "object_id": "6",
+        "change_message": "No fields changed.",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 20
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T02:51:37.631Z",
+        "object_repr": "Base Template",
+        "object_id": "7",
+        "change_message": "",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 21
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T02:52:35.337Z",
+        "object_repr": "Page > Base",
+        "object_id": "8",
+        "change_message": "",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 22
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T02:53:43.412Z",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "change_message": "Changed custom_template.",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 23
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T02:54:06.309Z",
+        "object_repr": "Homepage",
+        "object_id": "1",
+        "change_message": "Changed custom_template.",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 24
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T02:54:29.575Z",
+        "object_repr": "Page > Base",
+        "object_id": "8",
+        "change_message": "Changed custom_template.",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 25
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T02:55:17.811Z",
+        "object_repr": "Base Template",
+        "object_id": "7",
+        "change_message": "Changed custom_template.",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 26
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T03:07:14.930Z",
+        "object_repr": "Partials > Footer",
+        "object_id": "4",
+        "change_message": "Changed custom_template.",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 27
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-08-10T03:08:15.517Z",
+        "object_repr": "Helpful Links",
+        "object_id": "1",
+        "change_message": "",
+        "user": 1,
+        "content_type": 27
+    },
+    "model": "admin.logentry",
+    "pk": 28
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-08-10T03:09:25.647Z",
+        "object_repr": "Base Template",
+        "object_id": "7",
+        "change_message": "Changed custom_template.",
+        "user": 1,
+        "content_type": 18
+    },
+    "model": "admin.logentry",
+    "pk": 29
+}
+]
