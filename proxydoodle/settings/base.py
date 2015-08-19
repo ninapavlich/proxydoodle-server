@@ -131,7 +131,7 @@ if IS_ON_SERVER:
 #==============================================================================
 SECRET_KEY = ')dhj00d98D:Lk3ndj&^2dld3*^@)d{}{:sd;e'
 
-DEFAULT_PASSWORD = 'ch2015'
+DEFAULT_PASSWORD = env.get("DEFAULT_PASSWORD")
 TEST_USER = 'testbot@cgpartnersllc.com'
 
 AUTHENTICATION_BACKENDS += ()
@@ -485,18 +485,18 @@ DEFAULT_EMAIL_TEMPLATE_SLUG = 'base-email-template'
 #==============================================================================
 # APIS
 #==============================================================================
-INSTAGRAM_CLIENT_ID = ''
-INSTAGRAM_SECRET_CLIENT_ID = ''
+INSTAGRAM_CLIENT_ID = env.get("INSTAGRAM_CLIENT_ID")
+INSTAGRAM_SECRET_CLIENT_ID = env.get("INSTAGRAM_SECRET_CLIENT_ID")
 
-TWITTER_CLIENT_ID = ''
-TWITTER_SECRET_CLIENT_ID = ''
+TWITTER_CLIENT_ID = env.get("TWITTER_CLIENT_ID")
+TWITTER_SECRET_CLIENT_ID = env.get("TWITTER_SECRET_CLIENT_ID")
 
-FACEBOOK_CLIENT_ID = ''
-FACEBOOK_SECRET_CLIENT_ID = ''
+FACEBOOK_CLIENT_ID = env.get("FACEBOOK_CLIENT_ID")
+FACEBOOK_SECRET_CLIENT_ID = env.get("FACEBOOK_SECRET_CLIENT_ID")
 
-FACEBOOK_APP_ID = '893150330758529'
-FACEBOOK_SECRET_KEY = '5d835697d9de4d5115be9c6322b2ec08'
-#FACEBOOK_REQUEST_PERMISSIONS = ''
+FACEBOOK_APP_ID = env.get("FACEBOOK_APP_ID")
+FACEBOOK_SECRET_KEY = env.get("FACEBOOK_SECRET_KEY")
+FACEBOOK_REQUEST_PERMISSIONS = env.get("FACEBOOK_REQUEST_PERMISSIONS")
 
 
 #=============================================================================
