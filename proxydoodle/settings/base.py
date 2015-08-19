@@ -135,8 +135,17 @@ DEFAULT_PASSWORD = 'ch2015'
 TEST_USER = 'testbot@cgpartnersllc.com'
 
 AUTHENTICATION_BACKENDS += ()
+AUTHENTICATION_BACKENDS += (
+    'socialregistration.contrib.facebook.auth.FacebookAuth',
+    'socialregistration.contrib.openid.auth.OpenIDAuth',
+)
+
 AUTH_USER_MODEL = 'account.User'
 USER_GROUP_MODEL = 'account.UserGroup'
+
+
+SESSION_SERIALIZER='django.contrib.sessions.serializers.PickleSerializer'
+
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
@@ -187,6 +196,10 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.admindocs',
     'django.contrib.sitemaps',
+
+    'socialregistration',
+    'socialregistration.contrib.facebook',
+    'socialregistration.contrib.openid',
     
     'django_extensions',
     'debug_toolbar',
@@ -480,6 +493,10 @@ TWITTER_SECRET_CLIENT_ID = ''
 
 FACEBOOK_CLIENT_ID = ''
 FACEBOOK_SECRET_CLIENT_ID = ''
+
+FACEBOOK_APP_ID = '893150330758529'
+FACEBOOK_SECRET_KEY = '5d835697d9de4d5115be9c6322b2ec08'
+#FACEBOOK_REQUEST_PERMISSIONS = ''
 
 
 #=============================================================================

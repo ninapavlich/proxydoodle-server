@@ -50,6 +50,8 @@ urlpatterns +=  patterns('',
 
     (r'^', include('share_me_share_me.urls')),    
 
+     url(r'^social/', include('socialregistration.urls', namespace = 'socialregistration')),
+
     # -- Proxydoodle URLS
     url(r'^', include('proxydoodle.apps.media.urls')),
     url(r'^', include('proxydoodle.apps.form.urls')),
